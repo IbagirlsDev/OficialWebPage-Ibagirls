@@ -1,0 +1,70 @@
+.body_team{
+    background-color: #cecece;
+}
+.proyect {
+    color: black;
+    position: relative;
+    width: 100%;
+    padding: 45px 50px 15px 0;
+}
+.proyect .proyect-item{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+.proyect p{
+    color: black;
+    font-size: 15px;
+}
+
+
+.proyect .proyect-item {
+    position: relative;
+    margin-bottom: 30px;
+   
+}
+.proyect .proyect-img {
+    position: relative;
+    overflow: hidden;
+}
+
+.proyect .proyect-img img {
+    position: relative;
+    width: 90%;
+    height: 90%;
+
+}
+
+.proyect .proyect-text {
+    position: relative;
+    padding: 15px 15px 10px 15px;
+    text-align: left;
+}
+
+.proyect .proyect-text h2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lucida Sans';
+}
+
+.proyect .proyect-text p {
+    margin: 0;
+
+}
+
+.proyect .proyecto-text {
+    position: relative;
+    padding: 15px 15px 10px 15px;
+    text-align: right;
+}
+
+.proyect .proyecto-text h2 {
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Lucida Sans';
+}
+
+.proyect .proyecto-text p {
+    margin: 0;
+
+}
