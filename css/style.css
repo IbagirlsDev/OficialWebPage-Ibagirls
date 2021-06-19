@@ -37,32 +37,22 @@ html,body {
   textarea {
 	max-width: 100%;
   }
-  .navbar-custom .index strong{
-	  color: white;
-	  font-size: 24px;
-	  margin-left: 10px;
+  .nece{
+	  display: flex;
   }
-  .navbar-custom .index p{
+  
+  .navbar-custom  p{
 	  color: white;
 	  font-size: 12px;
-	  margin-left: 65px;
-	  margin-top: -10%;
-	  
-  }
-  .navbar-custom .team strong{
-	  color: rgb(0, 0, 0);
-	  font-size: 24px;
-	  margin-left: 10px;
-  }
-  .navbar-custom .team p{
-	  color: rgb(0, 0, 0);
-	  font-size: 12px;
-	  margin-left: 65px;
-	  margin-top: -10%;
+	  margin-left: 5px;
+	  margin-top: -5%;
 	  
   }
   .ibagirl_logo{
-	  padding: 10px 2px 0px 0px;
+	  height: 10%;
+	  width: 9%;
+	  margin-left: 10%;
+	  margin-top: 3%;
   }
   .btn {
 	font-size: 12px;
@@ -237,50 +227,50 @@ html,body {
   /* 5 Navigation
   ----------------------------------------------------------------------------- */
   .navbar-custom {
-	  background: transparent;
-	  margin-bottom: 0px;
-	  z-index: 1000;
-	  border: none;
-	  color: #333;
-	  position: fixed;
-	  transition: background-color 1s ease-in-out, border 1s ease-in-out;
-	  -moz-transition: background-color 1s ease-in-out, border 1s ease-in-out;
-	  -webkit-transition: background-color 1s ease-in-out, border 1s ease-in-out;
-	  -o-transition: background-color 1s ease-in-out, border 1s ease-in-out;
-  }
-  .navbar-custom .navbar-brand,.navbar-custom .navbar-brand:hover {
-	  color: #ffffff;
-	  padding: 0px 5px;
-	  font-size: 22px;
-	  font-weight: 700;
-	  font-family: "Poppins", sans-serif;
-  }
-  .small .small:hover {
-	  color: #333;
-  }
-  .navbar-custom .nav {
-	  padding: 15px 0px;
-  }
-  .navbar-custom .navbar-nav>li>a{
-	  color: #ffffff;
-	  font-size: 14px;
-	  text-transform: uppercase;
-  }
-  .small .navbar-nav>li>a , .index{
-	  color: #000;
-  }
-  nav.small {
-	 background-color: #fff;
-	 -moz-box-shadow: 0 3px 5px rgba(0,0,0,.1);
-	 -webkit-box-shadow: 0 3px 5px rgba(0,0,0,.1);
-	 box-shadow: 0 3px 5px rgba(0,0,0,.1);
-  }
-  .navbar-custom .navbar-nav>.active>a, .navbar-custom .navbar-nav>.active>a:hover, .navbar-custom .navbar-nav>.active>a:focus,
-  .navbar-custom .navbar-nav>.open>a, .navbar-custom .navbar-nav>.open>a:hover, .navbar-custom .navbar-nav>.open>a:focus,
-  .navbar-custom .navbar-nav>li>a:hover, .navbar-custom .navbar-nav>li>a:focus {
-	  background-color: transparent;
-  }
-  
+	background: transparent;
+	margin-bottom: 0px;
+	z-index: 1000;
+	border: none;
+	color: #333;
+	position: fixed;
+	transition: background-color 1s ease-in-out, border 1s ease-in-out;
+	-moz-transition: background-color 1s ease-in-out, border 1s ease-in-out;
+	-webkit-transition: background-color 1s ease-in-out, border 1s ease-in-out;
+	-o-transition: background-color 1s ease-in-out, border 1s ease-in-out;
+}
+.navbar-custom .navbar-brand,.navbar-custom .navbar-brand:hover {
+	color: #ffffff;
+	padding: 15px 35px;
+	font-size: 15px;
+	font-weight: 700;
+	font-family: "Poppins", sans-serif;
+	
+}
+.small .navbar-brand,.small .navbar-brand:hover {
+	color: #333;
+}
+.navbar-custom .nav {
+	padding: 15px 0px;
+}
+.navbar-custom .navbar-nav>li>a {
+	color: #e3e3e3;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.small .navbar-nav>li>a {
+	color: #000;
+}
+nav.small {
+   background-color: #fff;
+   -moz-box-shadow: 0 3px 5px rgba(0,0,0,.1);
+   -webkit-box-shadow: 0 3px 5px rgba(0,0,0,.1);
+   box-shadow: 0 3px 5px rgba(0,0,0,.1);
+}
+.navbar-custom .navbar-nav>.active>a, .navbar-custom .navbar-nav>.active>a:hover, .navbar-custom .navbar-nav>.active>a:focus,
+.navbar-custom .navbar-nav>.open>a, .navbar-custom .navbar-nav>.open>a:hover, .navbar-custom .navbar-nav>.open>a:focus,
+.navbar-custom .navbar-nav>li>a:hover, .navbar-custom .navbar-nav>li>a:focus {
+	background-color: transparent;
+}
   /* 6 Home
   ----------------------------------------------------------------------------- */
   .main-home {
@@ -682,20 +672,22 @@ html,body {
   
 
 
-  /* 11 Twitter-tweets
+  /* Empresas Aliadas
   ----------------------------------------------------------------------------- */
   #twitter_tweet {
 	  background: url(../images/pattern1.png), url(../images/fondo1.jpg);
   }
   .twitter_tweet h3{
 	  text-align: center;
-	  font-size: 40px;
+	  font-size: 38px;
 	  font-weight: 300;
 	  line-height: 20px;
 	  color: rgba(255,255,255,0.77);
+	  font-family: "Poppins", sans-serif;
+	  padding: 5px;
   }
   .twitter_tweet i{
-	  font-size: 30px;
+	  font-size: 25px;
   }
   
   .twitter_tweet p{
@@ -705,26 +697,31 @@ html,body {
   
   }
   
-  
   /* 14 Footer
   ----------------------------------------------------------------------------- */
   footer p{
-	  margin-bottom: 20px;
+	  margin-bottom: 10px;
   }
   #footer {
+	  height: 200px;
 	  color: #FFFFFF;
 	  padding: 40px 0px 0px 0px;
-	  background-color: #000000;
+	  background-color:black;
 	  border-top: 1px solid #000000;
   }
   .footer-content {
-	  padding: 40px 0px 80px;
+	  padding: 20px 0px 80px;
   }
   .footer-bottom {
+	  
 	  background-color: #000;
-	  color: #ffffff;
-	  padding: 20px 0px 1px;
+	  margin-top: -7.5%;
   }
+  .footer-bottom  p{  
+	color: #949292; 
+	width: 20%;
+	margin-left: 40%;
+	}
   .footer-socials {
 	  position: relative;
 	  margin: 47px 0px 20px 0px;
