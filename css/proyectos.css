@@ -1,22 +1,30 @@
 .proyect{
     background-color: #e0e0e0;
+    padding: 5px 50px;
 }
 .proyect {
     color: black;
     position: relative;
     width: 100%;
-    padding: 45px 50px 15px 0;
 }
 .proyect .proyect-item{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 20px;
 
 }
 .proyect p{
     color: black;
     font-size: 15px;
 }
-
+.cont-pro{
+    margin-top: 8%;
+    background-color: #fff;
+    padding: 10px;
+}
+.descrip-proyecto{
+    background-color: #fff;
+}
 
 .proyect .proyect-item {
     position: relative;
@@ -44,7 +52,7 @@
 .proyect .proyect-text h2 {
     font-size: 18px;
     font-weight: 600;
-    font-family: 'Lucida Sans';
+    font-family: "Poppins", sans-serif;
 }
 
 .proyect .proyect-text p {
@@ -61,7 +69,7 @@
 .proyect .proyecto-text h2 {
     font-size: 18px;
     font-weight: 600;
-    font-family: 'Lucida Sans';
+    font-family: "Poppins", sans-serif;
 }
 
 .proyect .proyecto-text p {

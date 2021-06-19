@@ -1,6 +1,32 @@
-.body_team{
-    background-color: rgb(255, 208, 0);
+.highlight:before{
+    font-family: 'FontAwesome'; /* Indicamos que la tipografía es FontAwesome */
+    content: "\f006"; /* Este valor es el que muestra un icono de estrella*/
+    position: absolute;
+    top: 0;
+    font-size: 40px;
+    height: 100px;
+    width: 100px;
+    line-height: 95px;
+    text-align: center;
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+    top: -50px;
+    left: 50%;
+    margin-left: -50px;
+    border:4px solid #fff;
+    }
+     
+    .highlight{
+     background: #ffffff;
+     padding:85px 35px;
+     margin-bottom: 60px;
+     position: relative;
+    }
+
+.bodteam{
+    background-color: #e0e0e0;   
 }
+
 .team {
     position: relative;
     width: 100%;
@@ -101,4 +127,53 @@
 
 .team .team-text p {
     margin: 0;
+}
+.mentores{
+    visibility: hidden;
+    opacity: 0;
+    display: none;
+}
+.men{
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+}
+.yooo{
+    border: none;
+    background: none;
+    margin-left: 46%;
+}
+.yooo i{
+    font-size: 20px;
+    color: black;
+}
+.team-text i , .team-text img{
+    padding: 10px;
+}
+.fa-html5{
+    font-size: 30px;
+    color: coral;
+	border-radius: 0px 5px 0px 0px;
+}
+.fa-css3-alt{
+    font-size: 30px;
+    color: blue;
+	border-radius: 0px 5px 0px 0px;
+}
+.fa-bootstrap{
+    font-size: 30px;
+    color: rgb(120, 3, 150);
+	border-radius: 0px 5px 0px 0px;
+}
+.team-text img{
+    width: 50px;
+    height: 50px;
+    margin-top: -12px;
+}
+.fa-java{
+    font-size: 35px;
+    color: orange;
+    margin-top: -1px;
 }
