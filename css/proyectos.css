@@ -1,5 +1,5 @@
-.body_team{
-    background-color: #cecece;
+.proyect{
+    background-color: #e0e0e0;
 }
 .proyect {
     color: black;
@@ -20,7 +20,7 @@
 
 .proyect .proyect-item {
     position: relative;
-    margin-bottom: 30px;
+    margin-bottom: 10%;
    
 }
 .proyect .proyect-img {
@@ -67,4 +67,19 @@
 .proyect .proyecto-text p {
     margin: 0;
 
+}
+
+.proyect .proyect-text a{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+.proyect .proyecto-text a{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20%;
 }
