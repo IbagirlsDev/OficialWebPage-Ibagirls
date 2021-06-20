@@ -246,6 +246,10 @@ html,body {
 	font-family: "Poppins", sans-serif;
 	
 }
+/* .navbar-header{
+	background: turquoise;
+	width: 40%;
+} */
 .small .navbar-brand,.small .navbar-brand:hover {
 	color: #333;
 }
