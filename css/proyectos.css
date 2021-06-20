@@ -1,6 +1,6 @@
 .proyect{
-    background-color: #e0e0e0;
-    padding: 5px 50px;
+    background-color: #0000003b;
+    padding: 80px 10px ;
 }
 .proyect {
     color: black;
@@ -17,18 +17,10 @@
     color: black;
     font-size: 15px;
 }
-.cont-pro{
-    margin-top: 8%;
-    background-color: #fff;
-    padding: 10px;
-}
-.descrip-proyecto{
-    background-color: #fff;
-}
 
 .proyect .proyect-item {
     position: relative;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
    
 }
 .proyect .proyect-img {
@@ -38,8 +30,7 @@
 
 .proyect .proyect-img img {
     position: relative;
-    width: 90%;
-    height: 90%;
+    width: 100%;
 
 }
 
