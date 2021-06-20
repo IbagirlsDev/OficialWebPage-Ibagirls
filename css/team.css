@@ -129,6 +129,7 @@
     margin: 0;
 }
 .mentores{
+    margin-top: -30%;
     visibility: hidden;
     opacity: 0;
     display: none;
