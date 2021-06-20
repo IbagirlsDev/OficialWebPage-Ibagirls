@@ -7,6 +7,7 @@
     position: relative;
     width: 100%;
 }
+
 .proyect .proyect-item{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -35,6 +36,7 @@
 }
 
 .proyect .proyect-text {
+    width: 100%;
     position: relative;
     padding: 15px 15px 10px 15px;
     text-align: left;
@@ -51,23 +53,6 @@
 
 }
 
-.proyect .proyecto-text {
-    position: relative;
-    padding: 15px 15px 10px 15px;
-    text-align: right;
-}
-
-.proyect .proyecto-text h2 {
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-}
-
-.proyect .proyecto-text p {
-    margin: 0;
-
-}
-
 .proyect .proyect-text a{
     font-size: 50px;
     display: flex;
@@ -75,10 +60,14 @@
     justify-content: center;
     margin-top: 20%;
 }
-.proyect .proyecto-text a{
-    font-size: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20%;
+
+@media screen and (max-width:500px){
+    .proyect .proyect-item{
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding: 20px;
+    
+    }
+    
+
 }
