@@ -1,12 +1,13 @@
 .proyect{
-    background-color: #e0e0e0;
-    padding: 5px 50px;
+    background-color: #0000003b;
+    padding: 80px 10px ;
 }
 .proyect {
     color: black;
     position: relative;
     width: 100%;
 }
+
 .proyect .proyect-item{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -17,18 +18,10 @@
     color: black;
     font-size: 15px;
 }
-.cont-pro{
-    margin-top: 8%;
-    background-color: #fff;
-    padding: 10px;
-}
-.descrip-proyecto{
-    background-color: #fff;
-}
 
 .proyect .proyect-item {
     position: relative;
-    margin-bottom: 10%;
+    margin-bottom: 1%;
    
 }
 .proyect .proyect-img {
@@ -38,12 +31,12 @@
 
 .proyect .proyect-img img {
     position: relative;
-    width: 90%;
-    height: 90%;
+    width: 100%;
 
 }
 
 .proyect .proyect-text {
+    width: 100%;
     position: relative;
     padding: 15px 15px 10px 15px;
     text-align: left;
@@ -60,23 +53,6 @@
 
 }
 
-.proyect .proyecto-text {
-    position: relative;
-    padding: 15px 15px 10px 15px;
-    text-align: right;
-}
-
-.proyect .proyecto-text h2 {
-    font-size: 18px;
-    font-weight: 600;
-    font-family: "Poppins", sans-serif;
-}
-
-.proyect .proyecto-text p {
-    margin: 0;
-
-}
-
 .proyect .proyect-text a{
     font-size: 50px;
     display: flex;
@@ -84,10 +60,14 @@
     justify-content: center;
     margin-top: 20%;
 }
-.proyect .proyecto-text a{
-    font-size: 50px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 20%;
+
+@media screen and (max-width:500px){
+    .proyect .proyect-item{
+        display: grid;
+        grid-template-columns: 1fr ;
+        padding: 20px;
+    
+    }
+    
+
 }
