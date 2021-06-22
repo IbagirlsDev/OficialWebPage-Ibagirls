@@ -49,8 +49,8 @@ html,body {
 	  
   }
   .ibagirl_logo{
-	  height: 10%;
-	  width: 9%;
+	  height: 80%;
+	  width: 13%;
 	  margin-left: 10%;
 	  margin-top: 3%;
   }
@@ -246,15 +246,27 @@ html,body {
 	font-family: "Poppins", sans-serif;
 	
 }
-/* .navbar-header{
-	background: turquoise;
-	width: 40%;
-} */
+
+.menu_f{
+	width: 5%;
+	height: 7%;
+}
+.navbar-header{
+	width: 100%;
+	display: flex;
+}
+.navbar-header button{
+	height: 5%;
+	margin-left: 15%;
+	background-color: transparent;
+	border:none;
+}
 .small .navbar-brand,.small .navbar-brand:hover {
 	color: #333;
 }
 .navbar-custom .nav {
-	padding: 15px 0px;
+	padding: 5px 0px;
+	margin-top: 4%;
 }
 .navbar-custom .navbar-nav>li>a {
 	color: #ffffff;
@@ -753,7 +765,7 @@ nav.small {
   ----------------------------------------------------------------------------- */
   @media only screen and (max-width: 767px) {
 	  .navbar-custom {
-		  background-color: #ffffff;
+		  background-color: #000;
 	  }
 	  .navbar-custom .navbar-brand {
 		  color: #000;
@@ -763,6 +775,19 @@ nav.small {
 		  width: 100%;
 		  display: block;
 	  }
+	  .ibagirl_logo,
+	  .navbar-brand{
+		  display: none;
+	  }
+	  .menu_f{
+		  width: 55%;
+		  height: 38%;
+	  }
+	  
+	.free{
+		background-color: transparent;
+		border:none;
+	}
   }
   
   /* 16 Back-to-top
