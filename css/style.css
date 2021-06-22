@@ -788,6 +788,10 @@ nav.small {
 		background-color: transparent;
 		border:none;
 	}
+	.container-bar{
+		margin-top: -50%;
+		display: none;
+	}
   }
   
   /* 16 Back-to-top
