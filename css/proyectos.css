@@ -1,6 +1,6 @@
 .proyect{
     background-color: #0000003b;
-    padding: 80px 10px ;
+    padding: 4% 2% ;
 }
 .proyect {
     color: black;
@@ -11,12 +11,12 @@
 .proyect .proyect-item{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 20px;
+    padding: 5%;
 
 }
 .proyect p{
     color: black;
-    font-size: 15px;
+    font-size: 130%;
 }
 
 .proyect .proyect-item {
@@ -42,32 +42,34 @@
     text-align: left;
 }
 
-.proyect .proyect-text h2 {
-    font-size: 18px;
+.proyect .proyect-text .text-art {
+    font-size: 180%;
     font-weight: 600;
     font-family: "Poppins", sans-serif;
 }
-
-.proyect .proyect-text p {
-    margin: 0;
-
+.proyect .proyect-text .arte{
+    font-size: 110%;
 }
 
-.proyect .proyect-text a{
-    font-size: 50px;
+.proyect .proyect-text .icon{
+    font-size: 300%;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20%;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width:800px){
     .proyect .proyect-item{
         display: grid;
         grid-template-columns: 1fr ;
-        padding: 20px;
+        padding: 2%;
     
     }
-    
+
+
+    .proyect .text{
+        margin-top: 60%;
+    }
 
 }
