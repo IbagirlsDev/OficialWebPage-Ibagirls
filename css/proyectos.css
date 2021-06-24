@@ -59,7 +59,7 @@
     margin-top: 20%;
 }
 
-@media screen and (max-width:800px){
+@media screen and (max-width:500px){
     .proyect .proyect-item{
         display: grid;
         grid-template-columns: 1fr ;
@@ -69,7 +69,7 @@
 
 
     .proyect .text{
-        margin-top: 60%;
+        margin-top: 50%;
     }
 
 }
