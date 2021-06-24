@@ -723,18 +723,65 @@ nav.small {
 	.container-bar{
 		display: none;
 	}
+	.team{
+		margin-top: 10%;
+	}
+	#red_dos{
+		visibility: visible;
+		position: fixed;
+		bottom: 20px;
+		z-index: 8;
+	}
 
   }
+  @media screen and (max-width:1024px){
+	#twitter_tweet{
+		margin-top: 5%;
+	}
+	#daniela{
+		margin-left: 25%;
+	}
+	#meen{
+		width: 100%;
+	}
+	.container-bar{
+		display: none;
+	}
+	#red_dos{
+		visibility: visible;
+		position: fixed;
+		bottom: 20px;
+		z-index: 8;
+	}
+}
 
 @media screen and (max-width:743px){
 	.descrip{
 		margin-right: -50px;
+	}
+	.team{
+		margin-top: 10%;
+	}
+	#red_dos{
+		visibility: visible;
+		position: fixed;
+		bottom: 20px;
+		z-index: 8;
 	}
 }
 
 @media screen and (max-width:727px){
 	.descrip{
 		margin-right: -20px;
+	}
+	.team{
+		margin-top: 10%;
+	}
+	#red_dos{
+		visibility: visible;
+		position: fixed;
+		bottom: 20px;
+		z-index: 8;
 	}
 }
 
@@ -744,6 +791,15 @@ nav.small {
 	}
 	.descrip p{
 		font-size: 10px;
+	}
+	.team{
+		margin-top: 10%;
+	}
+	#red_dos{
+		visibility: visible;
+		position: fixed;
+		bottom: 20px;
+		z-index: 8;
 	}
 }
 
@@ -778,6 +834,15 @@ nav.small {
 		padding: 0;
 		width: 100%;
 		height: 30%;
+	}
+	.team{
+		margin-top: 10%;
+	}
+	#red_dos{
+		visibility: visible;
+		position: fixed;
+		bottom: 20px;
+		z-index: 8;
 	}
 }
   
@@ -1152,7 +1217,7 @@ nav.small {
 .container_redes{
     position: fixed;
     bottom: 20px;
-    right: 20px;
+    visibility: hidden;
 	z-index: 5;
 }
 .redes_dos a, .btn-mas label{
