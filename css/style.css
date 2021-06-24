@@ -788,7 +788,7 @@ nav.small {
   /* Empresas Aliadas
   ----------------------------------------------------------------------------- */
   #twitter_tweet {
-	  background: url(../images/pattern1.png), url(../images/fondo1.jpg);
+	  background: url(../images/pattern1.png), url(../images/fondo1.png);
   }
   .twitter_tweet h3{
 	  text-align: center;
@@ -858,7 +858,12 @@ nav.small {
 		width: 18%;
 		height: 65%;
 	}
-	
+
+	#footer {
+		color: #FFFFFF;
+		background-color:black;
+		border-top: 1px solid #000000;
+	}
   }
   @media only screen and (max-width: 985px){
 	.ibagirl_logo{
