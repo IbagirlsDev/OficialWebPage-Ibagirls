@@ -368,7 +368,7 @@ nav.small {
   background-color: rgb(255, 198, 198);
   position: relative;
   width: 100%;
-  min-height: 100vh;
+  min-height: 90vh;
   overflow: hidden;
 }
 
@@ -419,6 +419,7 @@ nav.small {
 	color: rgb(0, 0, 0);
 	font-size: 100%;
 }
+
 .mi-vi-title{
 	font-size: 3.2rem;
 	margin-bottom: 10px;
@@ -484,7 +485,6 @@ nav.small {
 	display: flex;
 	flex-direction: column;
 	align-items: flex-end;
-	justify-content: space-around;
 	align-items: center;
 	z-index: 7;
 }
@@ -522,6 +522,9 @@ nav.small {
   }
 .right-cambia .info-cambia, .right-cambia .imagesMiVi{
 	transform: translateX(800px);
+}
+.social a>i:hover{
+    color: #F7CAC9;
 }
 
 /* ANIMACIÓN */
@@ -615,8 +618,9 @@ nav.small {
     color: #fff;
 }
 
+
 .descrip{
-    margin-left: -66%;
+    margin-left: -64%;
     width: 60%;
     height: 350px;
     overflow: hidden;
@@ -637,7 +641,7 @@ nav.small {
     background: rgb(0, 0, 0);
 	border-radius: 5px;
     color: white;
-    font-size: 15px;
+    font-size: 95%;
     margin-top: 242px;
     transition: .5s;
     padding: 25px;
@@ -732,7 +736,26 @@ nav.small {
 		bottom: 20px;
 		z-index: 8;
 	}
+	.footer-bottom p{  
+		margin-left: -30%;
+	}
 
+  }
+  @media screen and (max-width:695px){
+	.descrip p{
+		font-size: 80%;
+	}
+	.descrip{
+		width: 62%;
+	}
+	.social{
+		margin-left: -7%
+	}
+	.mision p, .vision p{
+		padding: 5% 15%;
+		color: rgb(0, 0, 0);
+		font-size: 80%;
+	}
   }
   @media screen and (max-width:1024px){
 	#twitter_tweet{
@@ -830,7 +853,6 @@ nav.small {
 		margin-left: 40px;
 	}
 	.misi-visi p{
-		font-size: 15px;
 		padding: 0px;
 	}
 	.imagesMiVi{
@@ -943,42 +965,25 @@ nav.small {
 	  .navbar-custom {
 		  background-color: #000;
 	  }
-	  .navbar-custom  {
+	  .navbar-custom .navbar-brand {
 		  color: #000;
-		  padding: 5px;
+		  padding: 15px;
 	  }
 	  .work-list li {
 		  width: 100%;
-		  display: flex;
+		  display: block;
 	  }
 	  .ibagirl_logo,
 	  .navbar-brand{
 		  display: none;
 	  }
 	  .menu_f{
-		  width: 28%;
-		  height: 18%;
-		  margin-left: 16%;
+		  width: 55%;
+		  height: 38%;
 	  }
-	  .menuuu{
+	  .menuuu {
 		  color: white;
-		  padding: 5%;
-		  margin-left: 16%;
 	  }
-	  
-	  #bs-example-navbar-collapse-1 {
-		  display: flex;
-		  margin-left: -90%;
-		  width: 100%;
-		  height: 50px;
-		  margin-top: 30%;
-		  text-align: center;
-		  border-color: 2px black;
-	  }
-	  #bs-example-navbar-collapse-1 ul {
-		display: flex;
-	}
-
 	  
 	.free{
 		background-color: transparent;
@@ -989,7 +994,6 @@ nav.small {
 		display: none;
 	}
   }
-
   @media only screen and (max-width: 680px){
 	.container-bar{
 		margin-top: -46%;
