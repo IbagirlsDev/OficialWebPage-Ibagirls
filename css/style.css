@@ -777,7 +777,62 @@ nav.small {
 		z-index: 8;
 	}
 }
-
+@media screen and (max-width:767px){
+	.container .navbar-header{
+		margin-left: 14%;
+		
+	}
+}
+@media screen and (max-width:714px){
+	.container .navbar-header{
+		margin-left: 12%;
+		
+	}
+}
+@media screen and (max-width:667px){
+	.container .navbar-header{
+		margin-left: 10%;
+		
+	}
+}
+@media screen and (max-width:604px){
+	.container .navbar-header{
+		margin-left: 8%;
+		
+	}
+}
+@media screen and (max-width:572px){
+	.container .navbar-header{
+		margin-left: 6%;
+		
+	}
+}
+@media screen and (max-width:500px){
+	.container .navbar-header{
+		margin-left: 2%;
+		
+	}
+}
+@media screen and (max-width:450px){
+	.container .navbar-header{
+		margin-left: 0%;
+		
+	}
+}
+@media screen and (max-width:420px){
+	.container .navbar-header{
+		margin-left: -4%;
+		
+	}
+}
+@media screen and (max-width:610px){
+	/* .container .navbar-header{
+		margin-right: 10%;
+	} */
+	.navbar-nav{
+		width: 50%;
+	}
+}
 @media screen and (max-width:743px){
 	.descrip{
 		margin-right: -50px;
@@ -978,11 +1033,13 @@ nav.small {
 		  display: none;
 	  }
 	  .menu_f{
-		  width: 55%;
-		  height: 38%;
+		  width: 35%;
+		  height: 30%;
+		  margin-left: 10px;
 	  }
 	  .menuuu {
-		  color: white;
+		  color: rgb(145, 145, 145);
+		  cursor: pointer;
 	  }
 	  
 	.free{
@@ -1019,13 +1076,6 @@ nav.small {
 	  display: block;
 	  line-height: 33px;
   }
-  
-  
-  
-  
-  /*==================================
-  STYLE SWITHER - Demo purpose only
-  ==================================*/ 
   
   #style-switcher div h3 {
 	  color: #1D1D1D;
