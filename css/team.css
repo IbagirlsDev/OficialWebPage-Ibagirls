@@ -177,3 +177,28 @@
     color: orange;
     margin-top: -1px;
 }
+@media screen and (max-width:1195px){
+    
+	#meen{
+		width: 100%;
+	}
+}
+
+@media screen and (max-width:1025px){
+    .yooo{
+        margin-left: 44%;
+    }
+}
+
+
+@media screen and (max-width:863px){
+    .yooo{
+        margin-left: 42%;
+    }
+}
+
+@media screen and (max-width:500px){
+    .yooo{
+        margin-left: 35%;
+    }
+}
