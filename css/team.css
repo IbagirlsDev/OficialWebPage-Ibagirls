@@ -181,10 +181,42 @@
     color: orange;
     margin-top: -1px;
 }
-#holwan{
+.js{
+    background: rgb(0, 0, 0);
+    margin: 0px;
+}
+.fa-js-square{
+    font-size: 30px;
+    background: rgb(0, 0, 0);
+    color: rgb(219, 216, 0);
+    width: 25px;
+    height: 26px;
+    margin-top: 20px;
+}
+.fa-unity{
+    font-size: 35px;
+    color: rgb(0, 0, 0);
+}
+#centro{
     display: flex;
     margin-left: 38%;
 }
+
+@media screen and (max-width:1150px){
+    
+	#centro{
+		margin-left: 25%;
+	}
+}
+
+@media screen and (max-width:970px){
+    
+	#centro{
+		margin-left: 0%;
+	}
+}
+
+
 @media screen and (max-width:1195px){
     
 	#meen{
