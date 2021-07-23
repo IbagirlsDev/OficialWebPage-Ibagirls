@@ -906,6 +906,10 @@ nav.small {
 	}
 	.social img{
 		margin-left: 40px;
+		margin-top: -30px;
+	}
+	.social{
+		margin-left: 10px;
 	}
 	.misi-visi p{
 		padding: 0px;
