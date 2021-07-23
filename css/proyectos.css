@@ -34,8 +34,12 @@
 
 .proyect .proyect-img img {
     position: relative;
-    width: 100%;
+    width: 90%;
 
+}
+
+.proyect-text h3{
+    text-align: justify;
 }
 
 .proyect .proyect-text {
@@ -54,7 +58,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20%;
+    margin-top: 5%;
 }
 
 @media screen and (max-width:700px){
