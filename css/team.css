@@ -1,6 +1,8 @@
-.highlight:before{
-    font-family: 'FontAwesome'; /* Indicamos que la tipografía es FontAwesome */
-    content: "\f006"; /* Este valor es el que muestra un icono de estrella*/
+.highlight:before {
+    font-family: 'FontAwesome';
+    /* Indicamos que la tipografía es FontAwesome */
+    content: "\f006";
+    /* Este valor es el que muestra un icono de estrella*/
     position: absolute;
     top: 0;
     font-size: 40px;
@@ -13,20 +15,21 @@
     top: -50px;
     left: 50%;
     margin-left: -50px;
-    border:4px solid #fff;
-    }
-     
-    .highlight{
-     background: #ffffff;
-     padding:55px 35px 0px 35px;
-     margin-bottom: 60px;
-     position: relative;
-    }
-
-.bodteam{
-    background-color: #30004641;   
+    border: 4px solid #fff;
 }
-.section-header{
+
+.highlight {
+    background: #ffffff;
+    padding: 55px 35px 0px 35px;
+    margin-bottom: 60px;
+    position: relative;
+}
+
+.bodteam {
+    background-color: #30004641;
+}
+
+.section-header {
     margin-top: 2%;
     color: black;
 }
@@ -39,20 +42,23 @@
 
 .team .team-item {
     position: relative;
-    margin-bottom: 30px;
-    padding: 15px;
+    margin-bottom: 15px;
+    margin-left: 15px;
+    padding: 15px 0px 0px 0px;
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, .07);
+    height:38rem;
 }
 
 .team .team-img {
     position: relative;
     overflow: hidden;
+    text-align: center;
 }
 
 .team .team-img img {
     position: relative;
-    width: 100%;
+    width: 70%;
 }
 
 .team .team-social {
@@ -119,7 +125,7 @@
 
 .team .team-text {
     position: relative;
-    padding: 25px 15px 10px 15px;
+    padding: 5px 0px;
     text-align: center;
     background: #ffffff;
 }
@@ -132,60 +138,73 @@
 .team .team-text p {
     margin: 0;
 }
-.mentores{
+
+.mentores {
     visibility: hidden;
     opacity: 0;
     display: none;
 }
-.men{
+
+.men {
     width: 100%;
     text-align: center;
     color: black;
     font-family: "Poppins", sans-serif;
     font-size: 50px;
 }
-.yooo{
+
+.yooo {
     border: none;
     background: none;
     margin-left: 46%;
 }
-.yooo i{
+
+.yooo i {
     font-size: 20px;
     color: black;
 }
-.team-text i , .team-text img{
+
+.team-text i,
+.team-text img {
     padding: 10px;
 }
-.fa-html5{
+
+.fa-html5 {
     font-size: 30px;
     color: coral;
-	border-radius: 0px 5px 0px 0px;
+    border-radius: 0px 5px 0px 0px;
 }
-.fa-css3-alt{
+
+.fa-css3-alt {
     font-size: 30px;
     color: blue;
-	border-radius: 0px 5px 0px 0px;
+    border-radius: 0px 5px 0px 0px;
 }
-.fa-bootstrap{
+
+.fa-bootstrap {
     font-size: 30px;
     color: rgb(120, 3, 150);
-	border-radius: 0px 5px 0px 0px;
+    border-radius: 0px 5px 0px 0px;
 }
-.team-text img{
+
+.team-text img {
     width: 50px;
     height: 50px;
     margin-top: -12px;
 }
-.fa-java{
+
+.fa-java {
     font-size: 35px;
     color: orange;
     margin-top: -1px;
 }
-.js{
+
+.js {
     background: rgb(0, 0, 0);
     margin: 0px;
 }
-.fa-js-square{
+
+.fa-js-square {
     font-size: 30px;
     background: rgb(0, 0, 0);
     color: rgb(219, 216, 0);
@@ -193,52 +212,54 @@
     height: 26px;
     margin-top: 20px;
 }
-.fa-unity{
+
+.fa-unity {
     font-size: 35px;
     color: rgb(0, 0, 0);
 }
-#centro{
+
+#centro {
     display: flex;
     margin-left: 38%;
 }
 
-@media screen and (max-width:1150px){
-    
-	#centro{
-		margin-left: 25%;
-	}
+@media screen and (max-width:1150px) {
+
+    #centro {
+        margin-left: 25%;
+    }
 }
 
-@media screen and (max-width:970px){
-    
-	#centro{
-		margin-left: 0%;
-	}
+@media screen and (max-width:970px) {
+
+    #centro {
+        margin-left: 0%;
+    }
 }
 
 
-@media screen and (max-width:1195px){
-    
-	#meen{
-		width: 100%;
-	}
+@media screen and (max-width:1195px) {
+
+    #meen {
+        width: 100%;
+    }
 }
 
-@media screen and (max-width:1025px){
-    .yooo{
+@media screen and (max-width:1025px) {
+    .yooo {
         margin-left: 44%;
     }
 }
 
 
-@media screen and (max-width:863px){
-    .yooo{
+@media screen and (max-width:863px) {
+    .yooo {
         margin-left: 42%;
     }
 }
 
-@media screen and (max-width:500px){
-    .yooo{
+@media screen and (max-width:500px) {
+    .yooo {
         margin-left: 35%;
     }
 }
