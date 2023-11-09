@@ -22,6 +22,7 @@ body {
 	outline: 0 !important
 }
 
+
 :root {
 	/*set colors*/
 	--primary-color: #AD8EDE;
@@ -81,9 +82,11 @@ textarea {
 
 }
 
-.ibagirl_logo {
-	height: 73%;
+
+	height: 83%;
 	width: 15%;
+	margin-left: 10%;
+
 	margin-top: 2%;
 }
 
@@ -295,11 +298,9 @@ section {
 /* 5 Navigation
   ----------------------------------------------------------------------------- */
 
-
-
 .navbar-custom {
-	background-color: var(--primary-color);
-	box-shadow: 0px 4px 14px var(--secundary2-color);
+	background: transparent;
+
 	margin-bottom: 0px;
 	z-index: 1000;
 	border: none;
@@ -317,6 +318,7 @@ section {
 	font-size: 15px;
 	font-weight: 700;
 	font-family: "Poppins", sans-serif;
+
 }
 
 .menu_f {
@@ -336,10 +338,12 @@ section {
 	border: none;
 }
 
-/* .small .navbar-brand,
+
+.small .navbar-brand,
 .small .navbar-brand:hover {
 	color: #333;
-} */
+}
+
 
 .navbar-custom .nav {
 	padding: 5px 0px;
@@ -352,16 +356,18 @@ section {
 	text-transform: uppercase;
 }
 
-/* .small .navbar-nav>li>a {
-	color: #000;
-} */
 
-/* nav.small {
-	background-color: red;
+.small .navbar-nav>li>a {
+	color: #000;
+}
+
+nav.small {
+	background-color: #fff;
 	-moz-box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
 	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
 	box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
-} */
+}
+
 
 .navbar-custom .navbar-nav>.active>a,
 .navbar-custom .navbar-nav>.active>a:hover,
@@ -382,18 +388,20 @@ section {
 	text-align: center;
 	position: relative;
 	font-size: 13px;
-	color: #fff;
-	background: #000;
+
+	color: #ffffff;
+	background: #2e1c1c;
 	min-height: 695px;
 }
 
 .home-page-photo {
-	background-image: url(../images/portada_ibagirls.jpeg);
+
+	background-image: url(../images/portada_ibagirls.jpg);
 	background-size: cover;
-	z-index: -1;
+	z-index: 1;
 	position: absolute;
-	top: 0;
-	opacity: 0.50;
+	top: -25vh;
+	opacity: 0.5;
 	right: 0;
 	bottom: 0;
 	left: 0;
@@ -404,7 +412,7 @@ section {
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 	position: absolute;
-	top: 50%;
+	top: 60%;
 	left: 0;
 	right: 0;
 }
@@ -426,13 +434,14 @@ section {
 /*--- Carousel --*/
 #main-home-carousel .intro-title {
 	font-family: "Poppins", sans-serif;
+	/* opacity: 1; */
 }
 
 #main-home-carousel .intro-text {
-	color: #cacaca;
+	color: #ffffff;
 	font-weight: 300;
 	margin-bottom: 0px;
-	font-size: 120%;
+	font-size: 140%;
 	padding: 10px;
 }
 
@@ -460,7 +469,8 @@ section {
 	background-color: rgb(255, 198, 198);
 	position: relative;
 	width: 100%;
-	min-height: 90vh;
+
+	min-height: 60vh;
 	overflow: hidden;
 }
 
@@ -513,14 +523,14 @@ section {
 
 .mision p,
 .vision p {
-	padding: 5% 15%;
+	padding: 5% 5%;
 	color: rgb(0, 0, 0);
-	font-size: 100%;
+	font-size: 2rem;
 }
 
 .mi-vi-title {
-	font-size: 3.2rem;
-	margin-bottom: 10px;
+	font-size: 4rem;
+	margin-bottom: 5px;
 }
 
 .vision {
@@ -541,7 +551,7 @@ section {
 	border-radius: 49px;
 	color: rgb(0, 0, 0);
 	font-weight: 600;
-	font-size: 16px;
+	/* font-size: 15%; */
 	margin: 10px 0;
 	cursor: pointer;
 	transition: 0.5s;
@@ -560,7 +570,7 @@ section {
 	width: 130px;
 	height: 41px;
 	font-weight: 600;
-	font-size: 1rem;
+	font-size: 1.5rem;
 	font-family: "Poppins", sans-serif;
 }
 
@@ -598,7 +608,7 @@ section {
 }
 
 .imagesMiVi {
-	width: 80%;
+	width: 35vh;
 	transition: transform 1.1s ease-in-out;
 	transition-delay: 0.4s;
 }
@@ -681,6 +691,7 @@ section {
 .name-manager {
 	text-align: center;
 	font-size: 300%;
+	color: #000;
 }
 
 .managers .manager {
@@ -708,10 +719,9 @@ section {
 }
 
 .managers .manager img {
-	width: 195px;
-	height: 195px;
+	width: 30%;
 	object-fit: cover;
-	border-radius: 50%;
+	/* border-radius: 50%; */
 	display: block;
 }
 
@@ -726,7 +736,7 @@ section {
 
 
 .descrip {
-	margin-left: -64%;
+	margin-left: -50%;
 	width: 60%;
 	height: 350px;
 	overflow: hidden;
@@ -752,7 +762,8 @@ section {
 	font-size: 95%;
 	margin-top: 242px;
 	transition: .5s;
-	padding: 25px;
+	padding: 25px 4.5rem;
+
 }
 
 .descrip:hover .mas {
@@ -816,9 +827,16 @@ section {
 	background: #F7CAC9;
 }
 
+
+.img_photographer {
+	width: 25vh;
+	height: 25vh;
+	border-radius: 150px;
+	border: solid 2px rgb(255, 255, 255);
+
+}
+
 @media screen and (max-width:1000px) {
-
-
 	.managers {
 		flex-direction: column;
 		justify-content: center;
@@ -835,6 +853,8 @@ section {
 
 	.managers .manager {
 		width: 90%;
+		justify-content: center;
+		text-align: center;
 	}
 
 	.managers .manager:first-child {
@@ -869,10 +889,6 @@ section {
 
 	.descrip {
 		width: 62%;
-	}
-
-	.social {
-		margin-left: -7%
 	}
 
 	.mision p,
@@ -1018,7 +1034,8 @@ section {
 	}
 
 	.descrip p {
-		font-size: 10px;
+
+		font-size: 14px;
 	}
 
 	.team {
@@ -1056,11 +1073,12 @@ section {
 		padding: 0px 0px 70px 0px;
 	}
 
-	.social img {
+
+	/* .social img{
 		margin-left: 40px;
 		margin-top: -30px;
-	}
-
+		background-color: rgb(255, 255, 255);
+	} */
 	.social {
 		margin-left: 10px;
 	}
