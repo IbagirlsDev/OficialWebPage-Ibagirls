@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/ibagirls/public_html/
-    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R . $DEPLOYPATH
