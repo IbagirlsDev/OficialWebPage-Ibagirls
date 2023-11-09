@@ -22,6 +22,16 @@ body {
 	outline: 0 !important
 }
 
+
+:root {
+	/*set colors*/
+	--primary-color: #AD8EDE;
+	--secundary1-color: #FF3E75;
+	--secundary2-color: #FBFBFB;
+	--accent1-color: #343148;
+	--accent2-color: #535353;
+}
+
 iframe {
 	border: none;
 	width: 100%;
@@ -72,10 +82,11 @@ textarea {
 
 }
 
-.ibagirl_logo {
+
 	height: 83%;
 	width: 15%;
 	margin-left: 10%;
+
 	margin-top: 2%;
 }
 
@@ -286,17 +297,18 @@ section {
 
 /* 5 Navigation
   ----------------------------------------------------------------------------- */
+
 .navbar-custom {
 	background: transparent;
+
 	margin-bottom: 0px;
 	z-index: 1000;
 	border: none;
-	color: #333;
-	position: fixed;
-	transition: background-color 1s ease-in-out, border 1s ease-in-out;
-	-moz-transition: background-color 1s ease-in-out, border 1s ease-in-out;
-	-webkit-transition: background-color 1s ease-in-out, border 1s ease-in-out;
-	-o-transition: background-color 1s ease-in-out, border 1s ease-in-out;
+	/* position: fixed; */
+	/* transition: background-color 1s ease-in-out, border 1s ease-in-out; */
+	/* -moz-transition: background-color 1s ease-in-out, border 1s ease-in-out; */
+	/* -webkit-transition: background-color 1s ease-in-out, border 1s ease-in-out; */
+	/* -o-transition: background-color 1s ease-in-out, border 1s ease-in-out; */
 }
 
 .navbar-custom .navbar-brand,
@@ -326,10 +338,12 @@ section {
 	border: none;
 }
 
+
 .small .navbar-brand,
 .small .navbar-brand:hover {
 	color: #333;
 }
+
 
 .navbar-custom .nav {
 	padding: 5px 0px;
@@ -342,6 +356,7 @@ section {
 	text-transform: uppercase;
 }
 
+
 .small .navbar-nav>li>a {
 	color: #000;
 }
@@ -352,6 +367,7 @@ nav.small {
 	-webkit-box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
 	box-shadow: 0 3px 5px rgba(0, 0, 0, .1);
 }
+
 
 .navbar-custom .navbar-nav>.active>a,
 .navbar-custom .navbar-nav>.active>a:hover,
@@ -372,12 +388,14 @@ nav.small {
 	text-align: center;
 	position: relative;
 	font-size: 13px;
+
 	color: #ffffff;
 	background: #2e1c1c;
 	min-height: 695px;
 }
 
 .home-page-photo {
+
 	background-image: url(../images/portada_ibagirls.jpg);
 	background-size: cover;
 	z-index: 1;
@@ -451,6 +469,7 @@ nav.small {
 	background-color: rgb(255, 198, 198);
 	position: relative;
 	width: 100%;
+
 	min-height: 60vh;
 	overflow: hidden;
 }
@@ -744,6 +763,7 @@ nav.small {
 	margin-top: 242px;
 	transition: .5s;
 	padding: 25px 4.5rem;
+
 }
 
 .descrip:hover .mas {
@@ -806,6 +826,7 @@ nav.small {
 	color: #343148;
 	background: #F7CAC9;
 }
+
 
 .img_photographer {
 	width: 25vh;
@@ -1013,6 +1034,7 @@ nav.small {
 	}
 
 	.descrip p {
+
 		font-size: 14px;
 	}
 
@@ -1050,6 +1072,7 @@ nav.small {
 	.product h3 {
 		padding: 0px 0px 70px 0px;
 	}
+
 
 	/* .social img{
 		margin-left: 40px;
