@@ -82,13 +82,25 @@ textarea {
 
 }
 
-
-	height: 83%;
+.ibagirl_logo {
+	height: 73%;
 	width: 15%;
-	margin-left: 10%;
-
-	margin-top: 2%;
 }
+
+.title-description {
+	font-weight: var(--p1-font-weight);
+	font-size: var(--p1-font-size);
+	margin: 0px;
+}
+
+.btn {
+	font-size: 12px;
+	font-family: "Poppins", sans-serif;
+	text-transform: uppercase;
+	border-radius: 0;
+}
+
+
 
 .titulo_nav {
 	font-size: 2.5rem;
