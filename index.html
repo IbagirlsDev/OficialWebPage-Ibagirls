@@ -40,8 +40,14 @@
       $('#team').click(function(){
         $('#contenidos').load("pages/team.html");
       });
-      $('#proyectos').click(function(){
-        $('#contenidos').load("pages/proyectos.html");
+      $('#eventos').click(function(){
+        $('#contenidos').load("pages/eventos.html");
+      });
+      $('#talentos').click(function(){
+        $('#contenidos').load("pages/talentos.html");
+      });
+      $('#blog').click(function(){
+        $('#contenidos').load("pages/Blog.html");
       });
       $('#index').click(function(){
         $('#contenidos').load("index.html");
@@ -60,7 +66,7 @@
   </div> 
   <!-- End Preloader -->
 
-
+  <!-- Navbar -->
   <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
     <div class="container">
       <!-- Brand and toggle get grouped for better mobile display -->
@@ -76,8 +82,9 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="#" id="team">Nosotros</a></li>
-            <li><a href="#" id="proyectos">Proyectos</a></li>
-            <li ><a href="#empresas">Nuestros Aliados</a></li>
+            <li><a href="#" id="blog">Blog</a></li>
+            <li><a href="#" id="talentos">Talentos</a></li>
+            <li><a href="#" id="team">Eventos</a></li>
             <li ><a data-toggle= "modal" data-target="#modal_historia" class="fas fa-book"></a></li>
             <li ><a  class="fab fa-whatsapp" id="whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=+57 3166836452&amp;text=Hola!&nbsp; me gustaria conocer más sobre la comunidad."></a></li>
           </ul>
@@ -114,7 +121,7 @@
                   <div class="item">
                     <img src="images/historia/2.png" alt="diapositiva-02" style="width:100%;">
                   </div>
-                
+                  
                   <div class="item">
                     <img src="images/historia/3.png" alt="diapositiva-03" style="width:100%;">
                   </div>
@@ -279,67 +286,8 @@
     <!-- End Manager -->
   </div>
 
-    <!-- Empresas -->
-    <div id="empresas"></div>
-    <section class="twitter_tweet parallax" id="twitter_tweet" data-stellar-background-ratio="0.5">
-      <h3>NUESTROS ALIADOS</h3><br><br><br><br><br>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-8 col-md-offset-2 text-center">
-            <div id="testi-carousel" class="owl-carousel owl-spaced">  
+    
 
-              
-
-              <!-- IbagueJs -->
-              <div class="aliados">
-                <img src="images/aliados/ibague_js_logo.png" width="300"  height="100" alt="IbagueJs"><br>
-                <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#ibagueJs">
-                  Conocer +
-                </button>
-              </div>
-
-              <!-- Ibacrea -->
-              <div class="aliados">
-                <img src="images/aliados/ibacrea_logo.png" width="330"  height="130" alt="Ibacrea"><br>
-                <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#ibacrea">
-                  Conocer +
-                </button>
-              </div>
-
-              
-
-              <!-- OpportunIT -->
-              <div class="aliados">
-                <img src="images/aliados/opportunIT_logo.png" width="400"  height="100" alt="OpportunIT"><br>
-                <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#opportunIT">
-                  Conocer +
-                </button>
-              </div>
-              
-              <!-- Inventiba -->
-              <div>
-                <img src="images/aliados/inventiba.png" width="450"  height="100" alt="Inventiba"><br><br><br>
-                <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#inventiba">
-                  Conocer +
-                </button>
-              </div>
-
-              <!-- Fotografo -->
-              <div class="aliados">
-                <img src="images/aliados/fotografo.png" class="img_photographer" alt="Fotografo"><br>
-                <button type="button" class="btn btn-custom" data-toggle="modal" data-target="#fotografo">
-                  Conocer +
-                </button>
-              </div>
-              
-            </div>
-          </div>
-        </div>
-        </div>
-      </div> 
-    </section>
-   
-    <!-- End Empresas -->
     
     <!-- FOOTER  -->
     <footer id="footer">    
@@ -377,7 +325,7 @@
       <br>
       <div class="footer-bottom text-center"> <!-- Footer-copyright -->
         
-        <p>©2021.  Desarrollado por <a href="https://www.facebook.com/ibagirls.devs">IBAGIRLS DEV</a></p>
+        <p>©2023.  Desarrollado por <a href="https://www.facebook.com/ibagirls.devs">IBAGIRLS DEV</a></p>
         <br>
       </div>
     </footer>
@@ -385,124 +333,7 @@
     
 
 
-    <!-- Modal Empresas-->
 
-    <!-- IbagueJs -->
-    <div class="modal fade" id="ibagueJs" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a target="_blanck" href="https://www.IbagueJs.com"><img class="img_aliados"  src="images/aliados/ibague_js_dos.jpg" width="240"></a>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p style="text-align: justify;">IbagueJs es una comunidad JavaScript de la ciudad Ibagué-Tolima; Ofrece espacios gratuitos y libres para aprender y compartir conocimiento sobre JavaScript.<br><br> Se rigen bajo un Código de Conducta que aplica a los integrantes, asistentes, patrocinadores y organizadores del grupo, esto con el objetivo de propiciar un ambiente sin acoso e inclusivo, al hacer parte de este grupo entendemos que estás de acuerdo con nuestro Código de Conducta.<br><br>
-              <strong class="frase"><i> "Nuestra filosofía será siempre la de mantener un ambiente informal, nada estricto en ningún sentido. Así que cualquier colaboración, en cualquier sentido, será muy bien recibida."</i></strong></p>
-            
-            <div class="social_ali">
-              <a target="_blanck" href="https://ibaguejs.com/"><i class="fas fa-globe"></i></a> 
-              <a target="_blanck" href="https://github.com/IbagueJS"><i class="fab fa-github"></i></a>
-              <a target="_blanck" href="https://www.facebook.com/Ibaguejs.co"><i class="fab fa-facebook-f"></i></a>
-              <a target="_blanck" href="https://twitter.com/IbagueJS"><i class="fab fa-twitter"></i></a>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- End IbagueJs -->
-
-
-    <!-- IBACREA -->
-    <div class="modal fade" id="ibacrea" tabindex="-2" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a target="_blanck" href="https://www.ibacrea.com"><img class="img_aliados" src="images/aliados/ibacrea_dos.png"></a>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p style="text-align: justify;">Empresa perteneciente al grupo enlace sostenible, que trabaja desde una de sus líneas en la formación en desarrollo de jóvenes que no tienen acceso a la educación superior, buscando no solo impactar sus vidas si no que de las personas con que conviven, puesto que quienes se forman con nosotros logran mejorar en aspectos de comunicación, de valor compartido e ingresos económicos.<br><br>
-            <strong class="frase"><i>" Aquella empresa que decide confiar en Ibacrea, constantemente en cada una de las entregas programadas encontrará valor y al finalizar la etapa de desarrollo tendrá un soporte completo y oportuno. "</i></strong></p>
-            
-            <div class="social_ali">
-              <a target="_blanck" href="https://www.ibacrea.com"><i class="fas fa-globe"></i></a> 
-              <a target="_blanck" href="https://www.facebook.com/ibacrea"><i class="fab fa-facebook-f"></i></a>
-              <a target="_blanck" href="https://www.linkedin.com/company/ibacrea/about/"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-          </div>
-        </div>
-      </div>
-      </div>
-    </div>
-    <!-- End IBACREA -->
-
-    <!-- OpportunIT-->
-    <div class="modal fade" id="opportunIT" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a target="_blanck" href="https://www.facebook.com/fepecas"><img class="img_aliados" src="images/aliados/opportunIT_dos.png"></a>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p style="text-align: justify;">OpportunIT: Creamos una red de voluntarios para ayudar a cerca de 600 estudiantes del SENA a dar sus primeros pasos en carreras de TI. Profesionales de la industria ofrecen charlas, talleres y mentorías.<br><br>
-            <strong class="frase">Fundador: <i>Andrés Felipe Peña Castro</i></strong></p>
-            
-            <div class="social_ali">
-              <a target="_blanck" href="https://www.facebook.com/fepecas"><i class="fab fa-facebook-f"></i></a>
-              <a target="_blanck" href="https://www.linkedin.com/in/fepecas/"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-          </div>
-          </div>
-        </div>
-      </div>
-    </div>
-      
-    <!-- End OpportunIT -->
-   
-
-    <!-- Inventiba -->
-    <div class="modal fade" id="inventiba" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-      <div class="modal-dialog modal-dialog-centered" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <a target="_blanck" href="https://wssinternational.net/"><img class="img_aliados" src="images/aliados/inventiba.png"></a>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body">
-            <p style="text-align: justify;"><strong>Inventiba Creations</strong>, es una empresa de software enfocada en el diseño, desarrollo web, y desarrollo móvil.<br><br>
-             Fundada en el año 2010 y enfocada en brindar soluciones tecnológicas a todas las empresas y personas emprendedoras con ideas de negocio que requieran mejorar sus funciones a través de procesos automatizados, con diferencias significativas en el mercado gracias a los estándares que se manejan y a la vanguardia tecnológica que sostiene.<br><br>
-              Mediante un equipo altamente capacitado, y prestos a seguir aprendiendo de las nuevas tecnologías que surgen día a día, basados en valores corporativos Inventiba Creations logra ofrecer satisfacción en los clientes y la sociedad gracias a los resultados ofrecidos por sus productos.</p>
-            <div class="social_ali">
-              <a target="_blanck" href="http://inventiba.com/"><i class="fas fa-globe"></i></a>
-              <a target="_blanck" href="https://www.facebook.com/inventiba"><i class="fab fa-facebook"></i></a>
-              <a target="_blanck" href="https://twitter.com/inventiba"><i class="fab fa-twitter"></i></a>
-              <a target="_blanck" href="https://www.linkedin.com/company/inventiba-creations/"><i class="fab fa-linkedin-in"></i></a>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- End Inventiba -->
 
      <!-- Fotografo-->
      <div class="modal fade" id="fotografo" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
