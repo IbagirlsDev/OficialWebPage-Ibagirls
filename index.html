@@ -1,30 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- Meta Tags -->
-  <meta charset="utf-8"/>
+  <meta charset="utf-8" />
   <meta name="author" content="Devs Junior Frontend Ibagirls Dev">
   <meta name="description" content="Primera Comunidad de Desarrolladoras de Ibague-Tolima">
 
   <!-- Mobile Specific Metas-->
-  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
   <!-- Google-fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <!-- Bootstrap -->
-  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
   <!-- Fonts-style -->
-  <link rel="stylesheet" href="css/styles.css"/>
+  <link rel="stylesheet" href="css/styles.css" />
   <!-- Fonts-style -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
   <!-- owl-carousel -->
   <link href="css/owl.carousel.css" rel="stylesheet" type="text/css" media="screen">
   <!-- Template Styles-->
-  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/style.css" />
 
   <!--Icono-->
-  <link rel="icon" href="images/logo.ico"/>
+  <link rel="icon" href="images/logo.ico" />
   <title>IBAGIRLS DEV</title>
 
   <!-- Team -->
@@ -36,20 +38,11 @@
   <link href="css/proyectos.css" rel="stylesheet">
 
   <script>
-    $(document).ready(function(){
-      $('#team').click(function(){
+    $(document).ready(function () {
+      $('#team').click(function () {
         $('#contenidos').load("pages/team.html");
       });
-      $('#eventos').click(function(){
-        $('#contenidos').load("pages/eventos.html");
-      });
-      $('#talentos').click(function(){
-        $('#contenidos').load("pages/talentos.html");
-      });
-      $('#blog').click(function(){
-        $('#contenidos').load("pages/Blog.html");
-      });
-      $('#index').click(function(){
+      $('#index').click(function () {
         $('#contenidos').load("index.html");
       });
     })
@@ -63,141 +56,147 @@
     <div class="loader">
       Cargando...
     </div>
-  </div> 
+  </div>
   <!-- End Preloader -->
 
   <!-- Navbar -->
-  <nav class="navbar navbar-default navbar-fixed-top navbar-custom">
-    <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" >
-            <a href="index.html"><img class="menu_f" src="images/logo.ico" alt="" id="foto_log" ></a>
-            <br><br>
-            <label class="menuuu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" for="" ><strong class="titulo_nav">&nbsp;&nbsp;M&nbsp;E&nbsp;N&nbsp;Ú</strong></label>
-            
-          </button>
-        <a class="nece" href="index.html"><img  class="ibagirl_logo" src="images/logo.ico"  alt="ibagirl_logo"><h4 class="navbar-brand"><strong class="titulo_nav">IBAGIRLS DEV</strong><br>Comunidad de Desarrolladoras</h4></a>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="#" id="team">Nosotros</a></li>
-            <li><a href="#" id="blog">Blog</a></li>
-            <li><a href="#" id="talentos">Talentos</a></li>
-            <li><a href="#" id="team">Eventos</a></li>
-            <li ><a data-toggle= "modal" data-target="#modal_historia" class="fas fa-book"></a></li>
-            <li ><a  class="fab fa-whatsapp" id="whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=+57 3166836452&amp;text=Hola!&nbsp; me gustaria conocer más sobre la comunidad."></a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div>
+  <nav class=" navbar-fixed-top navbar-custom">
+
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed">
+        <a href="index.html"><img class="menu_f" src="images/logo.ico" alt="" id="foto_log"></a>
+        <br><br>
+        <label class="menuuu" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" for=""><strong
+            class="titulo_nav">&nbsp;&nbsp;M&nbsp;E&nbsp;N&nbsp;Ú</strong></label>
+
+      </button>
+      <a class="nece" href="index.html"><img class="ibagirl_logo" src="images/logo.ico" alt="ibagirl_logo">
+        <h4 class="navbar-brand"><strong class="titulo_nav">IBAGIRLS DEV</strong><br>Comunidad de Desarrolladoras</h4>
+      </a>
+      <div class="collapse navbar-collapse navbar-items" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right navbar-items">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="#" id="team">Nosotros</a></li>
+          <li><a data-toggle="modal" data-target="#modal_historia" class="history"><span
+                class="history-span"></span>Nuestra Historia</a></li>
+          <li><a class="fab fa-whatsapp" id="whatsapp" target="_blanck"
+              href="https://api.whatsapp.com/send?phone=+57 3166836452&amp;text=Hola!&nbsp; me gustaria conocer más sobre la comunidad."></a>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+
 
       <!-- Collect the nav links, forms, and other content for toggling -->
-     
+
     </div><!-- /.container -->
   </nav>
 
-    <!-- Modal History -->
-    <div class="modal fadel" id="modal_historia">
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h3>NUESTROS INICIOS ...</h3>
-          </div>
-          <div class="modal-body">
-            <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                
-                <ol class="carousel-indicators">
-                  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                  <li data-target="#myCarousel" data-slide-to="1"></li>
-                  <li data-target="#myCarousel" data-slide-to="2"></li>
-                  <li data-target="#myCarousel" data-slide-to="3"></li>
-                </ol>
-            
-                <div class="carousel-inner">
-                  <div class="item active">
-                    <img src="images/historia/1.png" alt="diapositiva-01" style="width:100%;">
-                  </div>
-            
-                  <div class="item">
-                    <img src="images/historia/2.png" alt="diapositiva-02" style="width:100%;">
-                  </div>
-                  
-                  <div class="item">
-                    <img src="images/historia/3.png" alt="diapositiva-03" style="width:100%;">
-                  </div>
+  <!-- Modal History -->
+  <div class="modal fadel" id="modal_historia">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3>NUESTROS INICIOS ...</h3>
+        </div>
+        <div class="modal-body">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
 
-                  <div class="item">
-                    <img src="images/historia/4.png" alt="diapositiva-04" style="width:100%;">
-                  </div>
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
 
-                  <div class="item">
-                    <img src="images/historia/5.png" alt="diapositiva-05" style="width:100%;">
-                  </div>
-                </div>
-            
-                <!-- Controles izquierda - derecha -->
-                <div class="controles">
-                  <a class="far fa-arrow-alt-circle-left" href="#myCarousel" data-slide="prev"></a>
-                  <a class="far fa-arrow-alt-circle-right" href="#myCarousel" data-slide="next"></a>
-                </div>
-
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="images/historia/1.png" alt="diapositiva-01" style="width:100%;">
               </div>
+
+              <div class="item">
+                <img src="images/historia/2.png" alt="diapositiva-02" style="width:100%;">
+              </div>
+
+              <div class="item">
+                <img src="images/historia/3.png" alt="diapositiva-03" style="width:100%;">
+              </div>
+
+              <div class="item">
+                <img src="images/historia/4.png" alt="diapositiva-04" style="width:100%;">
+              </div>
+
+              <div class="item">
+                <img src="images/historia/5.png" alt="diapositiva-05" style="width:100%;">
+              </div>
+            </div>
+
+            <!-- Controles izquierda - derecha -->
+            <div class="controles">
+              <a class="far fa-arrow-alt-circle-left" href="#myCarousel" data-slide="prev"></a>
+              <a class="far fa-arrow-alt-circle-right" href="#myCarousel" data-slide="next"></a>
+            </div>
+
           </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
+  </div>
 
-    
-    <div class="container-bar" id="redess">
-        <div class="icon-social">
-          <a target="_blanck" href="https://www.facebook.com/ibagirls.devs" class="fab fa-facebook">
-            <span id="title">Facebook</span>
-          </a>
-          <a target="_blanck" href="https://www.instagram.com/ibagirlsdev/" class="fab fa-instagram">
-            <span id="title">Instagram</span>
-          </a>
-          <a  target="_blanck"href="https://twitter.com/IbagirlsDev" class="fab fa-twitter">
-            <span id="title">Twitter</span>
-          </a>
-          <a target="_blanck" href="https://github.com/IBAGIRLS" class="fab fa-github">
-            <span id="title">Github</span>
-          </a>
-          <a target="_blanck" href="https://www.linkedin.com/in/ibagirls-dev-b69892214/" class="fab fa-linkedin-in">
-            <span id="title">LinkedIN</span>
-          </a>
-        </div>
-      </div>
-    
 
-    
-    <!-- Scroll top -->
-    <a href="#" class="back-to-top"> <i class="fa fa-chevron-up"> </i> </a>
-    <div id="contenidos">
- <!-- /HOME -->
-      <section class="main-home" id="inicio">
+  <div class="container-bar" id="redess">
+    <div class="icon-social">
+      <a target="_blanck" href="https://www.facebook.com/ibagirls.devs" class="fab fa-facebook">
+        <span id="title">Facebook</span>
+      </a>
+      <a target="_blanck" href="https://www.instagram.com/ibagirlsdev/" class="fab fa-instagram">
+        <span id="title">Instagram</span>
+      </a>
+      <a target="_blanck" href="https://twitter.com/IbagirlsDev" class="fab fa-twitter">
+        <span id="title">Twitter</span>
+      </a>
+      <a target="_blanck" href="https://github.com/IBAGIRLS" class="fab fa-github">
+        <span id="title">Github</span>
+      </a>
+      <a target="_blanck" href="https://www.linkedin.com/in/ibagirls-dev-b69892214/" class="fab fa-linkedin-in">
+        <span id="title">LinkedIN</span>
+      </a>
+    </div>
+  </div>
+
+
+
+  <!-- Scroll top -->
+  <a href="#" class="back-to-top"> <i class="fa fa-chevron-up"> </i> </a>
+  <div id="contenidos">
+    <!-- /HOME -->
+    <section class="main-home" id="inicio">
       <div class="home-page-photo"></div> <!-- Background image -->
       <div class="home__header-content">
         <div id="main-home-carousel" class="owl-carousel">
           <div>
             <h1 class="intro-title">Compromiso</h1>
-            <p class="intro-text">Compartiendo experiencias, conocimientos y 
-              siendo responsables para que nuestra comunidad se mantenga <br/> en 
-              constante crecimiento  gracias al liderazgo y la solidaridad de sus colaboradores.</p><br>
+            <p class="intro-text">Compartiendo experiencias, conocimientos y
+              siendo responsables para que nuestra comunidad se mantenga <br /> en
+              constante crecimiento gracias al liderazgo y la solidaridad de sus colaboradores.</p><br>
             <!-- <a data-toggle= "modal" data-target="#modal_historia" class="btn btn-custom" href="#">Conoce más</a> -->
           </div>
 
           <div>
             <h1 class="intro-title">Vocación</h1>
-            <p class="intro-text">Ayudamos a cualquier mujer, que desee capacitarse y superar los temores respecto al manejo del entorno digital,<br/> en el mundo de la tecnología para su crecimiento intelectual, integral y profesional.</p><br>
+            <p class="intro-text">Ayudamos a cualquier mujer, que desee capacitarse y superar los temores respecto al
+              manejo del entorno digital,<br /> en el mundo de la tecnología para su crecimiento intelectual, integral y
+              profesional.</p><br>
             <!-- <a data-toggle= "modal" data-target="#modal_historia" class="btn btn-custom" href="#">Conoce más</a>-->
           </div>
 
           <div>
             <h1 class="intro-title">Pasión</h1>
-            <p class="intro-text">Cada una de las personas del equipo brinda lo mejor de sí para que las mujeres <br/>que hacen parte de la comunidad puedan llegar a alcanzar sus sueños.
+            <p class="intro-text">Cada una de las personas del equipo brinda lo mejor de sí para que las mujeres
+              <br />que hacen parte de la comunidad puedan llegar a alcanzar sus sueños.
             </p><br>
             <!-- <a data-toggle= "modal" data-target="#modal_historia" class="btn btn-custom" href="#">Conoce más</a>-->
           </div>
@@ -205,13 +204,16 @@
 
           <div>
             <h1 class="intro-title">Honestidad</h1>
-            <p class="intro-text">El equipo de Ibagirls Dev actúa con transparencia, honradez e integridad, buscando como primera medida el bienestar<br/> de las integrantes de la comunidad y de la sociedad en general. </p><br>
+            <p class="intro-text">El equipo de Ibagirls Dev actúa con transparencia, honradez e integridad, buscando
+              como primera medida el bienestar<br /> de las integrantes de la comunidad y de la sociedad en general.
+            </p><br>
             <!-- <a data-toggle= "modal" data-target="#modal_historia" class="btn btn-custom" href="#">Conoce más</a>-->
           </div>
 
           <div>
             <h1 class="intro-title">Solidaridad</h1>
-            <p class="intro-text">Realizamos las gestiones necesarias que contribuyen al cambio y al mejoramiento, de las problemáticas más<br/> evidentes de la ciudad como lo son el desempleo y la falta de oportunidades.
+            <p class="intro-text">Realizamos las gestiones necesarias que contribuyen al cambio y al mejoramiento, de
+              las problemáticas más<br /> evidentes de la ciudad como lo son el desempleo y la falta de oportunidades.
             </p><br>
             <!-- <a data-toggle= "modal" data-target="#modal_historia" class="btn btn-custom" href="#">Conoce más</a>-->
           </div>
@@ -227,11 +229,16 @@
         <div class="misi-visi">
           <div class="vision">
             <h2 class="mi-vi-title">VISIÓN</h2>
-            <p class="mi-vi-text" style="text-align: justify;">En el 2025 Ibagirls Dev se consolidará como la primera comunidad de desarrolladoras de software del Tolima, contribuyendo por medio de la tecnología, a la minimización de problemáticas sociales, ambientales, laborales y educativas en pro del crecimiento y desarrollo de nuestra ciudad de ibagué.</p>
+            <p class="mi-vi-text" style="text-align: justify;">En el 2028 Ibagirls Dev se consolidará como la primera
+              comunidad de desarrolladoras de software del Tolima, contribuyendo por medio de la tecnología, a la
+              minimización de problemáticas sociales, laborales y educativas en pro del crecimiento y desarrollo de
+              nuestra ciudad de ibagué.</p>
           </div>
           <div class="mision">
             <h2 class="mi-vi-title">MISIÓN</h2>
-            <p class="mi-vi-text" style="text-align: justify;">Promover y capacitar en diferentes tecnologías para el diseño y desarrollo de software, a todas las mujeres interesadas en iniciar su camino como programadoras y que deseen mejorar su calidad de vida y la de sus familias.</p>
+            <p class="mi-vi-text" style="text-align: justify;">Promover y capacitar en diferentes tecnologías para el
+              diseño y desarrollo de software, a todas las mujeres interesadas en iniciar su camino como programadoras y
+              que deseen mejorar su calidad de vida y la de sus familias.</p>
           </div>
         </div>
       </div>
@@ -263,99 +270,181 @@
         <div class="manager">
           <div class="social">
             <img src="images/FOTOS_LIDERES/diana_inicio2.png" alt="manager">
-            <a target="_blanck"  href="https://twitter.com/Diana51985624"><i class="fab fa-twitter"></i></a>
+            <a target="_blanck" href="https://twitter.com/Diana51985624"><i class="fab fa-twitter"></i></a>
             <a target="_blanck" href="https://www.facebook.com/Dianalc.2017"><i class="fab fa-facebook-f"></i></a>
-            <a target="_blanck" href="https://www.linkedin.com/in/diana-cabrejo-6481a1a3/"><i class="fab fa-linkedin-in"></i></a>
+            <a target="_blanck" href="https://www.linkedin.com/in/diana-cabrejo-6481a1a3/"><i
+                class="fab fa-linkedin-in"></i></a>
             <a target="_blanck" href="https://www.instagram.com/danylu2017/"><i class="fab fa-instagram"></i></a>
           </div>
 
           <div class="contenido-texto-manager">
             <h2>Diana Lucía Cabrejo Vidal </h2>
-            <p style="text-align: justify;">Ingeniera de Sistemas de la CUN, Tecnóloga en Análisis y Desarrollo de los Sistemas de Información, Tecnóloga en Gestión Comercial y de Negocios de la UNAD, mejor aprendíz SENA 2019, Representante de los Aprendices del SENA año 2020, organizadora de la comunidad IbaguéJs y Fundadora de la primera comunidad de Desarrolladoras de Ibagué "IbagirlsDev. Actualmente se desempeña como Business Analyst en una multinacional de software.</p>
+            <p style="text-align: justify;">Ingeniera de Sistemas de la CUN, Tecnóloga en Análisis y Desarrollo de los
+              Sistemas de Información, Tecnóloga en Gestión Comercial y de Negocios de la UNAD, mejor aprendíz SENA
+              2019, Representante de los Aprendices del SENA año 2020, organizadora de la comunidad IbaguéJs y Fundadora
+              de la primera comunidad de Desarrolladoras de Ibagué "IbagirlsDev. Actualmente se desempeña como Business
+              Analyst en una multinacional de software.</p>
           </div>
 
           <div class="descrip">
             <h4 class="mas">Conoce mas +</h4>
-            <p class="textoq" style="text-align: justify;">Diana es una mujer que le encanta estar capacitándose constantemente y compartir sus conocimientos con las personas que la rodean. Entre sus cualidades se encuentran el carisma, la sinceridad, la honestidad, la solidaridad, la templanza, el espíritu de lucha, la tenacidad, entre muchas más como pueden dar fe las personas que la conocen y que han tenido la oportunidad de crecer a su lado.<br><br>
-            Siempre  es entregada a sus proyectos y enfocada en buscar beneficios para aportar a la comunidad en general; gracias a esto, tomó la decisión de crear y liderar la comunidad Ibagirls Dev, con el fin de brindarle una oportunidad a todas las mujeres a nivel nacional e internacional, que deseen iniciar su camino en el desarrollo de software, y hacer de ellas mujeres empoderadas y apasionadas por la Tecnología.
+            <p class="textoq" style="text-align: justify;">Diana es una mujer que le encanta estar capacitándose
+              constantemente y compartir sus conocimientos con las personas que la rodean. Entre sus cualidades se
+              encuentran el carisma, la sinceridad, la honestidad, la solidaridad, la templanza, el espíritu de lucha,
+              la tenacidad, entre muchas más como pueden dar fe las personas que la conocen y que han tenido la
+              oportunidad de crecer a su lado.<br><br>
+              Siempre es entregada a sus proyectos y enfocada en buscar beneficios para aportar a la comunidad en
+              general; gracias a esto, tomó la decisión de crear y liderar la comunidad Ibagirls Dev, con el fin de
+              brindarle una oportunidad a todas las mujeres a nivel nacional e internacional, que deseen iniciar su
+              camino en el desarrollo de software, y hacer de ellas mujeres empoderadas y apasionadas por la Tecnología.
             </p>
           </div>
         </div>
       </div>
     </section>
     <!-- End Manager -->
+    <div id="ContactUs">
+      <div class="container text-center">
+        <h3>CONTÁCTENOS</h3>
+        <p><strong>Si deseas unirte a nuestra comunidad: </strong></p>
+        <p><strong>Número de télefono:</strong>+57 316 6836452<br>
+          <strong>Correo electrónico:</strong> ibagirlsdevs@gmail.com
+        </p>
+        <p><a class="btn btn-custom-sm" target="_blanck"
+            href="https://api.whatsapp.com/send?phone=+57 3166836452&amp;text=Hola!&nbsp; me gustaria conocer más sobre la comunidad.">
+            <i class="fab fa-whatsapp"></i>
+            Enviar
+            Mensaje</a></p>
+      </div>
+    </div>
   </div>
 
-    
 
-    
-    <!-- FOOTER  -->
-    <footer id="footer">    
-      <div style="background-color: black;" class="footer-widgets-wrap">
-        <div class="container text-center">    
-          <div  class="row">
-            <div class="col-sm-4 col-md-4">
-              <div class="footer-content">
-                <h4>PÁGINA DESARROLLADA EN:</h4>
-                <div class="footer-socials">
-                  <a href="https://developer.mozilla.org/es/docs/Glossary/HTML" target="_blanck" title="HTML"><i class="fab fa-html5"></i></a>
-                  <a href="https://developer.mozilla.org/es/docs/Web/CSS"  target="_blanck" title="CSS"><i class="fab fa-css3-alt"></i></a>
-                  <a href="https://developer.mozilla.org/es/docs/Web/JavaScript"  target="_blanck" title="JavaScript"><i class="fab fa-js" ></i></a>
-                  <a href="https://rockcontent.com/es/blog/bootstrap/"  target="_blanck" title="Bostrstrap"><i class="fab fa-bootstrap"></i></a>
-                </div>
-              </div> <!-- end footer-content -->
-            </div> <!-- end col-sm-4 -->
-            <div class="col-sm-4 col-md-4">
-              <div class="footer-content">
-                <h4>COMUNICATE AL</h4>
-                <p>+57 316-683-6452<br>               
-                ibagirlsdevs@gmail.com</p>
-              </div> <!-- end footer-content -->
-            </div> <!-- end col-sm-4 -->
-            <div  class="col-sm-4 col-md-4">
-              <div class="footer-content">
-                <h4>CONTÁCTENOS</h4>
-                <p>Si deseas unirte a nuestra comunidad contactanos via whatsapp.</p>
-                <p><a class="btn btn-custom-sm"  target="_blanck" href="https://api.whatsapp.com/send?phone=+57 3166836452&amp;text=Hola!&nbsp; me gustaria conocer más sobre la comunidad.">Enviar Mensaje</a></p>
-              </div>  <!-- end footer-content -->   
-            </div> <!-- end col-sm-4 -->
-          </div> <!-- end row -->
-        </div> <!-- container -->
-      </div>
+
+
+  <!-- FOOTER  -->
+  <footer id="footer">
+    <div class="footer-bottom text-center">
       <br>
-      <div class="footer-bottom text-center"> <!-- Footer-copyright -->
-        
-        <p>©2023.  Desarrollado por <a href="https://www.facebook.com/ibagirls.devs">IBAGIRLS DEV</a></p>
-        <br>
+      <p>©2024. Desarrollado por <a href="https://www.facebook.com/ibagirls.devs">IBAGIRLS DEV</a></p>
+      <br>
+    </div>
+  </footer>
+  <!-- End footer begings -->
+
+
+
+
+
+  <!-- Fotografo-->
+  <div class="modal fade" id="fotografo" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <a target="_blanck" href="https://www.facebook.com/fepecas">
+            <img class="img_aliados" src="images/aliados/fotografo.png"></a>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <strong class="frase"><i>Josue Robayo Montaño</i></strong></p>
+          <p style="text-align: justify;">Acción Edición: Fotografo y diseñador gráfico.<br><br>
+
+
+          <div class="social_ali">
+            <a target="_blanck" href="https://www.facebook.com/profile.php?id=61551472139036"><i
+                class="fab fa-facebook-f"></i></a>
+            <a target="_blanck" href="https://www.linkedin.com/in/josue-robayo-1b7aba292/"><i
+                class="fab fa-linkedin-in"></i></a>
+            <a target="_blanck" href="https://www.instagram.com/accionedicion/"><i class="fab fa-instagram"></i></a>
+            <a target="_blanck" href="https://wa.link/f9pwy9"><i class="fab fa-whatsapp"></i></a>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
       </div>
-    </footer>
-    <!-- End footer begings -->
-    
+    </div>
+  </div>
 
+  <!-- Modal Empresas-->
 
-
-
-     <!-- Fotografo-->
-     <div class="modal fade" id="fotografo" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <!-- IbagueJs -->
+    <div class="modal fade" id="ibagueJs" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <a target="_blanck" href="https://www.facebook.com/fepecas">
-              <img class="img_aliados" src="images/aliados/fotografo.png" ></a>
+            <a target="_blanck" href="https://www.IbagueJs.com"><img class="img_aliados"  src="images/aliados/ibague_js_dos.jpg" width="240"></a>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
           <div class="modal-body">
-            <strong class="frase"><i>Josue Robayo Montaño</i></strong></p>
-            <p style="text-align: justify;">Acción Edición: Fotografo y diseñador gráfico.<br><br>
-            
-            
+            <p style="text-align: justify;">IbagueJs es una comunidad JavaScript de la ciudad Ibagué-Tolima; Ofrece espacios gratuitos y libres para aprender y compartir conocimiento sobre JavaScript.<br><br> Se rigen bajo un Código de Conducta que aplica a los integrantes, asistentes, patrocinadores y organizadores del grupo, esto con el objetivo de propiciar un ambiente sin acoso e inclusivo, al hacer parte de este grupo entendemos que estás de acuerdo con nuestro Código de Conducta.<br><br>
+              <strong class="frase"><i> "Nuestra filosofía será siempre la de mantener un ambiente informal, nada estricto en ningún sentido. Así que cualquier colaboración, en cualquier sentido, será muy bien recibida."</i></strong></p>
+
             <div class="social_ali">
-              <a target="_blanck" href="https://www.facebook.com/profile.php?id=61551472139036"><i class="fab fa-facebook-f"></i></a>
-              <a target="_blanck" href="https://www.linkedin.com/in/josue-robayo-1b7aba292/"><i class="fab fa-linkedin-in"></i></a>
-              <a target="_blanck" href="https://www.instagram.com/accionedicion/"><i class="fab fa-instagram"></i></a>
-              <a target="_blanck" href="https://wa.link/f9pwy9"><i class="fab fa-whatsapp"></i></a>
+              <a target="_blanck" href="https://ibaguejs.com/"><i class="fas fa-globe"></i></a> 
+              <a target="_blanck" href="https://github.com/IbagueJS"><i class="fab fa-github"></i></a>
+              <a target="_blanck" href="https://www.facebook.com/Ibaguejs.co"><i class="fab fa-facebook-f"></i></a>
+              <a target="_blanck" href="https://twitter.com/IbagueJS"><i class="fab fa-twitter"></i></a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End IbagueJs -->
+
+
+    <!-- IBACREA -->
+    <div class="modal fade" id="ibacrea" tabindex="-2" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a target="_blanck" href="https://www.ibacrea.com"><img class="img_aliados" src="images/aliados/ibacrea_dos.png"></a>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p style="text-align: justify;">Empresa perteneciente al grupo enlace sostenible, que trabaja desde una de sus líneas en la formación en desarrollo de jóvenes que no tienen acceso a la educación superior, buscando no solo impactar sus vidas si no que de las personas con que conviven, puesto que quienes se forman con nosotros logran mejorar en aspectos de comunicación, de valor compartido e ingresos económicos.<br><br>
+            <strong class="frase"><i>" Aquella empresa que decide confiar en Ibacrea, constantemente en cada una de las entregas programadas encontrará valor y al finalizar la etapa de desarrollo tendrá un soporte completo y oportuno. "</i></strong></p>
+
+            <div class="social_ali">
+              <a target="_blanck" href="https://www.ibacrea.com"><i class="fas fa-globe"></i></a> 
+              <a target="_blanck" href="https://www.facebook.com/ibacrea"><i class="fab fa-facebook-f"></i></a>
+              <a target="_blanck" href="https://www.linkedin.com/company/ibacrea/about/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- End IBACREA -->
+
+    <!-- OpportunIT-->
+    <div class="modal fade" id="opportunIT" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a target="_blanck" href="https://www.facebook.com/fepecas"><img class="img_aliados" src="images/aliados/opportunIT_dos.png"></a>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p style="text-align: justify;">OpportunIT: Creamos una red de voluntarios para ayudar a cerca de 600 estudiantes del SENA a dar sus primeros pasos en carreras de TI. Profesionales de la industria ofrecen charlas, talleres y mentorías.<br><br>
+            <strong class="frase">Fundador: <i>Andrés Felipe Peña Castro</i></strong></p>
+
+            <div class="social_ali">
+              <a target="_blanck" href="https://www.facebook.com/fepecas"><i class="fab fa-facebook-f"></i></a>
+              <a target="_blanck" href="https://www.linkedin.com/in/fepecas/"><i class="fab fa-linkedin-in"></i></a>
             </div>
           <div class="modal-footer">
             <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
@@ -364,54 +453,86 @@
         </div>
       </div>
     </div>
-      
-    <!-- End OpportunIT -->
-   
 
-    <!-- Redes Responsive -->
-    <div class="container_redes" id="red_dos">
-      <input type="checkbox" id="btn-mas">
-      <div class="redes_dos">
-          <a target="_blanck" href="https://www.facebook.com/ibagirls.devs" class="fa fa-facebook"></a>
-          <a target="_blanck" href="https://github.com/IBAGIRLS" class="fa fa-github"></a>
-          <a target="_blanck" href="https://twitter.com/IbagirlsDev" class="fa fa-twitter"></a>
-          <a target="_blanck" href="https://www.linkedin.com/in/ibagirls-dev-b69892214/" class="fab fa-linkedin-in"></a>
-          <a target="_blanck" class="fab fa-whatsapp" id="whatsapp" href="https://api.whatsapp.com/send?phone=+57 3166836452&amp;text=Hola!&nbsp; me gustaria conocer más sobre la comunidad."></a>
+    <!-- End OpportunIT -->
+
+
+    <!-- Inventiba -->
+    <div class="modal fade" id="inventiba" tabindex="-1" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <a target="_blanck" href="https://wssinternational.net/"><img class="img_aliados" src="images/aliados/inventiba.png"></a>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p style="text-align: justify;"><strong>Inventiba Creations</strong>, es una empresa de software enfocada en el diseño, desarrollo web, y desarrollo móvil.<br><br>
+             Fundada en el año 2010 y enfocada en brindar soluciones tecnológicas a todas las empresas y personas emprendedoras con ideas de negocio que requieran mejorar sus funciones a través de procesos automatizados, con diferencias significativas en el mercado gracias a los estándares que se manejan y a la vanguardia tecnológica que sostiene.<br><br>
+              Mediante un equipo altamente capacitado, y prestos a seguir aprendiendo de las nuevas tecnologías que surgen día a día, basados en valores corporativos Inventiba Creations logra ofrecer satisfacción en los clientes y la sociedad gracias a los resultados ofrecidos por sus productos.</p>
+            <div class="social_ali">
+              <a target="_blanck" href="http://inventiba.com/"><i class="fas fa-globe"></i></a>
+              <a target="_blanck" href="https://www.facebook.com/inventiba"><i class="fab fa-facebook"></i></a>
+              <a target="_blanck" href="https://twitter.com/inventiba"><i class="fab fa-twitter"></i></a>
+              <a target="_blanck" href="https://www.linkedin.com/company/inventiba-creations/"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="btn-mas">
-          <label for="btn-mas" class="fa fa-plus"></label>
-      </div>
+    </div>
+
+    <!-- End Inventiba -->
+
+
+  <!-- Redes Responsive -->
+  <div class="container_redes" id="red_dos">
+    <input type="checkbox" id="btn-mas">
+    <div class="redes_dos">
+      <a target="_blanck" href="https://www.facebook.com/ibagirls.devs" class="fa fa-facebook"></a>
+      <a target="_blanck" href="https://github.com/IBAGIRLS" class="fa fa-github"></a>
+      <!-- <a target="_blanck" href="https://twitter.com/IbagirlsDev" class="fa fa-twitter"></a> -->
+      <a target="_blanck" href="https://www.linkedin.com/in/ibagirls-dev-b69892214/" class="fab fa-linkedin-in"></a>
+      <a target="_blanck" class="fab fa-whatsapp" id="whatsapp"
+        href="https://api.whatsapp.com/send?phone=+57 3166836452&amp;text=Hola!&nbsp; me gustaria conocer más sobre la comunidad."></a>
+    </div>
+    <div class="btn-mas">
+      <label for="btn-mas" class="fa fa-plus"></label>
+    </div>
   </div>
 
-    <!-- JavaScript
+  <!-- JavaScript
      ================================================== -->
-     <!-- Placed at the end of the document so the pages load faster -->
-     <script src="https://kit.fontawesome.com/7b875e4198.js" crossorigin="anonymous"></script>
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="https://kit.fontawesome.com/7b875e4198.js" crossorigin="anonymous"></script>
 
-     <!-- initialize jQuery Library -->
-     <script src="js/jquery.min.js"></script>
-     <!-- jquery easing -->
-     <script src="js/jquery.easing.min.js"></script>
-     <!-- Bootstrap -->
-     <script src="js/bootstrap.min.js"></script>
-     <!-- Counter-up -->
-     <script src="js/waypoints.min.js" type="text/javascript"></script>
-     <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
-     <!-- SmoothScroll -->
-     <script src="js/SmoothScroll.js"></script>
-     <!-- Parallax -->
-     <script src="js/jquery.stellar.min.js"></script>
-     <!-- Owl carousel -->                                                      
-     <script type="text/javascript" src="js/owl.carousel.min.js"></script>
-     <!-- App JS -->
-     <script src="js/app.js"></script>
-     <!-- Switcher script for demo only -->
-    <script type="text/javascript" src="js/switcher.js"></script>
+  <!-- initialize jQuery Library -->
+  <script src="js/jquery.min.js"></script>
+  <!-- jquery easing -->
+  <script src="js/jquery.easing.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="js/bootstrap.min.js"></script>
+  <!-- Counter-up -->
+  <script src="js/waypoints.min.js" type="text/javascript"></script>
+  <script src="js/jquery.counterup.min.js" type="text/javascript"></script>
+  <!-- SmoothScroll -->
+  <script src="js/SmoothScroll.js"></script>
+  <!-- Parallax -->
+  <script src="js/jquery.stellar.min.js"></script>
+  <!-- Owl carousel -->
+  <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+  <!-- App JS -->
+  <script src="js/app.js"></script>
+  <!-- Switcher script for demo only -->
+  <script type="text/javascript" src="js/switcher.js"></script>
 
-    <!-- Team -->
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="js/main.js"></script>
-  </body>
+  <!-- Team -->
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
 </html>
- 
