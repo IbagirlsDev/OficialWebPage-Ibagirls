@@ -37,6 +37,9 @@
 
   <script>
     $(document).ready(function(){
+      $('#news').click(function(){
+        $('#contenidos').load("pages/news.html");
+      });
       $('#team').click(function(){
         $('#contenidos').load("pages/team.html");
       });
@@ -73,6 +76,7 @@
           <ul class="nav navbar-nav navbar-right">
             <li><a href="index.html">Inicio</a></li>
             <li><a href="#" id="team">Nosotros</a></li>
+            <li><a href="#" id="news">Novedades</a></li>
             <li ><a data-toggle= "modal" data-target="#modal_historia" class="fas fa-book"></a></li>
             <li ><a  class="fab fa-whatsapp" id="whatsapp" target="_blanck" href="https://api.whatsapp.com/send?phone=+57 3166836452&amp;text=Hola!&nbsp; me gustaria conocer más sobre la comunidad."></a></li>
           </ul>
