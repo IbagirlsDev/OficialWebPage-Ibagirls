@@ -1,0 +1,69 @@
+.titlenews {
+    background-color: #AD8EDE;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+}
+.section-header-news{
+   
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/fondo1.png);
+    background-position: center 45%;
+    background-size: cover;
+    padding-top: 3%;
+    padding-bottom: 3%;
+ 
+    color: #FF3E75;
+    
+    
+}
+#novedadesContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 16px; /* Agrega un margen alrededor del contenedor */
+  }
+  
+  /* Estilos de la tarjeta */
+  .card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /* Asegura que el margen y el borde se incluyan en el ancho total */
+  }
+  
+  /* Estilos de la imagen dentro de la tarjeta */
+  .card img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  /* Estilos para la sección del autor */
+  .author-section {
+    margin-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .author-section img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .author-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .author-name {
+    font-weight: bold;
+    margin-right: 12px;
+  }
+  
+  .date {
+    color: #555;
+  }
