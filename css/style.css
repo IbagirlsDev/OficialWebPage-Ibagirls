@@ -62,15 +62,20 @@ textarea {
 
 .nece {
   display: flex;
-	width: 70%;
+  align-items: center;
+  margin-left: 10vh;
+  width: 100%;
+
 }
 
-.navbar-items{
-	width: 100%;
-	display: flex;
-	justify-content: space-between;
-	font-weight: bold;
-	letter-spacing: 2px;
+
+
+.navbar-items {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  letter-spacing: 2px;
 }
 
 .navbar-custom p {
@@ -78,23 +83,26 @@ textarea {
 }
 
 .ibagirl_logo {
-  height: 65%;
-  width: 10%;
-  margin-left: 10%;
-  margin-top: 3%;
+  width: 6rem;
+  margin-right: 1rem;
 }
 
 .titulo_nav {
   font-size: 2.5rem;
+  color: white;
+}
+
+.brand{
+  color: white;
 }
 
 .history {
-	margin-right: 8px;
-	text-transform: capitalize;
+  margin-right: 8px;
+  text-transform: capitalize;
 }
 
 .history-span {
-	margin-right: 8px;
+  margin-right: 8px;
 }
 
 .btn {
@@ -112,7 +120,7 @@ textarea {
 .btn-custom,
 .btn-custom-sm {
   border-radius: 8px;
-	margin-top: 2%;
+  margin-top: 2%;
   padding: 0.5em 1.8em;
   color: #fff;
   font-weight: 700;
@@ -289,6 +297,7 @@ section {
   background-repeat: no-repeat;
   background-size: 100% auto;
   width: 100%;
+  height: 45vh;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -301,11 +310,11 @@ section {
   border: none;
   color: #333;
   position: fixed;
-  transition: background-color 1s ease-in-out, border 1s ease-in-out;
-  -moz-transition: background-color 1s ease-in-out, border 1s ease-in-out;
-  -webkit-transition: background-color 1s ease-in-out, border 1s ease-in-out;
-  -o-transition: background-color 1s ease-in-out, border 1s ease-in-out;
-	justify-content: space-around;
+  transition: background-color 0.2s ease-in-out, border 0.1s ease-in-out;
+  -moz-transition: background-color 0.2s ease-in-out, border 0.1s ease-in-out;
+  -webkit-transition: background-color 0.2s ease-in-out, border 0.1s ease-in-out;
+  -o-transition: background-color 0.2s ease-in-out, border 0.1s ease-in-out;
+  justify-content: space-around;
 }
 
 .navbar-custom .navbar-brand,
@@ -325,8 +334,8 @@ section {
 .navbar-header {
   width: 100%;
   display: flex;
-	justify-content: space-between;
-	box-shadow: 0px 3px 5px 0px rgba(255,255,255,0.49);
+  justify-content: space-between;
+  box-shadow: 0px 3px 5px 0px rgba(255, 255, 255, 0.49);
 }
 
 .navbar-header button {
@@ -346,13 +355,13 @@ section {
   margin-top: 2%;
 }
 
-.navbar-custom .navbar-nav > li > a {
+.navbar-custom .navbar-nav>li>a {
   color: #ffffff;
   font-size: 1.6rem;
   text-transform: uppercase;
 }
 
-.small .navbar-nav > li > a {
+.small .navbar-nav>li>a {
   color: #000;
 }
 
@@ -363,14 +372,14 @@ nav.small {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-.navbar-custom .navbar-nav > .active > a,
-.navbar-custom .navbar-nav > .active > a:hover,
-.navbar-custom .navbar-nav > .active > a:focus,
-.navbar-custom .navbar-nav > .open > a,
-.navbar-custom .navbar-nav > .open > a:hover,
-.navbar-custom .navbar-nav > .open > a:focus,
-.navbar-custom .navbar-nav > li > a:hover,
-.navbar-custom .navbar-nav > li > a:focus {
+.navbar-custom .navbar-nav>.active>a,
+.navbar-custom .navbar-nav>.active>a:hover,
+.navbar-custom .navbar-nav>.active>a:focus,
+.navbar-custom .navbar-nav>.open>a,
+.navbar-custom .navbar-nav>.open>a:hover,
+.navbar-custom .navbar-nav>.open>a:focus,
+.navbar-custom .navbar-nav>li>a:hover,
+.navbar-custom .navbar-nav>li>a:focus {
   background-color: transparent;
 }
 
@@ -454,8 +463,8 @@ nav.small {
   margin-left: 30%;
 }
 
-#contenidos{
-	margin-top: -5%;
+#contenidos {
+  margin-top: -5%;
 }
 
 /* MISION Y VISION */
@@ -546,11 +555,11 @@ nav.small {
   border-color: white;
   color: rgb(0, 0, 0);
   font-weight: 600;
-  font-size: 40%; 
+  font-size: 40%;
   margin: 10px 0;
   cursor: pointer;
   transition: 0.5s;
-  
+
 }
 
 .miviBtn:hover {
@@ -601,7 +610,7 @@ nav.small {
   padding: 3rem 12% 5rem 17%;
 }
 
-.container-mivi-img{
+.container-mivi-img {
   width: 35vh;
   height: 45vh;
 }
@@ -634,7 +643,7 @@ nav.small {
   transform: translateX(800px);
 }
 
-.social a > i:hover {
+.social a>i:hover {
   color: #f7cac9;
 }
 
@@ -693,13 +702,12 @@ nav.small {
 
 .managers .manager {
   display: flex;
-  width: 84%;
-  height: 320px;
   align-items: center;
   justify-content: space-evenly;
+  width: 100%;
 }
 
-.social a > i {
+.social a>i {
   color: rgb(0, 0, 0);
   padding: 12px;
   font-size: 25px;
@@ -716,20 +724,18 @@ nav.small {
 }
 
 .managers .manager img {
-  width: 30%;
+  width: 30vh;
   object-fit: cover;
-  /* border-radius: 50%; */
+  border-radius: 50%;
   display: block;
 }
 
 .contenido-texto-manager {
-  margin-top: -5px;
+  margin: 15px;
+  width: 50%;
 }
 
-.managers .manager > .contenido-texto-manager {
-  width: 55%;
-  color: #fff;
-}
+
 
 .descrip {
   margin-left: -50%;
@@ -773,7 +779,7 @@ nav.small {
 }
 
 .aliados button {
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 .btn-secondary {
@@ -820,8 +826,8 @@ nav.small {
 }
 
 .img_photographer {
-  width: 25vh;
-  height: 25vh;
+  width: 20vh;
+  height: 20vh;
   border-radius: 150px;
   border: solid 2px rgb(255, 255, 255);
 }
@@ -859,10 +865,10 @@ nav.small {
     margin-top: 20%;
   }
 
-	.navbar-space{
-		height: 8%;
-		width: 100%;
-	}
+  .navbar-space {
+    height: 8%;
+    width: 100%;
+  }
 
   #red_dos {
     visibility: visible;
@@ -967,6 +973,7 @@ nav.small {
 }
 
 @media screen and (max-width: 610px) {
+
   /* .container .navbar-header{
 		margin-right: 10%;
 	} */
@@ -1056,14 +1063,11 @@ nav.small {
     padding: 0px 0px 70px 0px;
   }
 
-  /* .social img{
-		margin-left: 40px;
-		margin-top: -30px;
-		background-color: rgb(255, 255, 255);
-	} */
   .social {
     margin-left: 10px;
+    width: 200rem;
   }
+
 
   .misi-visi p {
     padding: 0px;
@@ -1197,6 +1201,8 @@ footer p {
   .ibagirl_logo,
   .navbar-brand {
     display: none;
+    height: none;
+    padding: none;
   }
 
   .menu_f {
@@ -1405,14 +1411,12 @@ ul.pattern .color12 {
 }
 
 .container-bar .fa-instagram {
-  background: -webkit-linear-gradient(
-    45deg,
-    #f09433 0%,
-    #e6683c 25%,
-    #dc2743 50%,
-    #cc2366 75%,
-    #bc1888 100%
-  );
+  background: -webkit-linear-gradient(45deg,
+      #f09433 0%,
+      #e6683c 25%,
+      #dc2743 50%,
+      #cc2366 75%,
+      #bc1888 100%);
 }
 
 .container-bar .fa-twitter {
@@ -1478,10 +1482,10 @@ ul.pattern .color12 {
 
 #whatsapp {
   font-size: 25px;
-	background-color: #22c25d;
+  background-color: #22c25d;
 }
 
-#btn-social:checked ~ .fa-play {
+#btn-social:checked~.fa-play {
   transform: rotate(0deg);
 }
 
@@ -1491,7 +1495,7 @@ ul.pattern .color12 {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
 }
 
-#btn-social:checked ~ .icon-social {
+#btn-social:checked~.icon-social {
   transform: translateX(-100%);
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0);
 }
@@ -1540,7 +1544,7 @@ ul.pattern .color12 {
   visibility: hidden;
 }
 
-#btn-mas:checked ~ .redes_dos a {
+#btn-mas:checked~.redes_dos a {
   margin-bottom: 10px;
   opacity: 1;
   visibility: visible;
@@ -1552,18 +1556,19 @@ ul.pattern .color12 {
   font-size: 15px;
 }
 
-#btn-mas:checked ~ .btn-mas label {
+#btn-mas:checked~.btn-mas label {
   transform: rotate(135deg);
   font-size: 15px;
 }
 
 #ContactUs {
-  margin-top: 5%;
-	padding: 0.8em 0px;
+  margin-top: 3%;
+  padding: 0.8em 0px;
   background: linear-gradient(-20deg, #dfdede, rgb(255, 198, 198));
   color: black;
 }
+
 #ContactUs p {
-	color: black;
-	font-size: 16px;
+  color: black;
+  font-size: 16px;
 }
