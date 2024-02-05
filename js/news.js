@@ -96,7 +96,7 @@ $(document).ready(function() {
     authorInfo.appendTo(authorSection);
     $("<span>").addClass("date").text(cardData.date).appendTo(authorSection);
     authorSection.appendTo(cardElement);
-    $("<h2>").text(cardData.title).appendTo(cardElement);
+    $("<h4>").text(cardData.title).appendTo(cardElement);
     $("<p>").text(cardData.content).appendTo(cardElement);
       // Agrega contador de likes
     var likeCounter = $("<div>").addClass("like-counter");
