@@ -65,10 +65,7 @@ textarea {
   align-items: center;
   margin-left: 10vh;
   width: 100%;
-
 }
-
-
 
 .navbar-items {
   width: 100%;
@@ -92,7 +89,7 @@ textarea {
   color: white;
 }
 
-.brand{
+.brand {
   color: white;
 }
 
@@ -136,8 +133,6 @@ textarea {
   background-color: #000000;
   border-color: #000000;
 }
-
-
 
 .form-control {
   box-shadow: none;
@@ -397,7 +392,7 @@ nav.small {
 }
 
 .home-page-photo {
-  background-image: url(../images/portada_ibagirls.jpg);
+  background-image: url(../images/portada_ibagirls1.jpg);
   background-size: cover;
   position: absolute;
   top: -25vh;
@@ -559,7 +554,6 @@ nav.small {
   margin: 10px 0;
   cursor: pointer;
   transition: 0.5s;
-
 }
 
 .miviBtn:hover {
@@ -643,9 +637,9 @@ nav.small {
   transform: translateX(800px);
 }
 
-.social a>i:hover {
+/* .social a>i:hover {
   color: #f7cac9;
-}
+} */
 
 /* ANIMACIÓN */
 
@@ -708,9 +702,14 @@ nav.small {
 }
 
 .social a>i {
-  color: rgb(0, 0, 0);
+  color: #000;
   padding: 12px;
   font-size: 25px;
+}
+
+.social a {
+  width: 25%;
+  text-align: center;
 }
 
 .manager h2 {
@@ -734,8 +733,6 @@ nav.small {
   margin: 15px;
   width: 50%;
 }
-
-
 
 .descrip {
   margin-left: -50%;
@@ -833,11 +830,69 @@ nav.small {
 }
 
 @media screen and (max-width: 1000px) {
-  .managers {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+
+  .button-menu {
+    display: flex;
+    justify-content: space-between;
   }
+
+  .navbar-header {
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 0.671);
+  }
+
+  .navbar-custom {
+    height: 70px;
+  }
+
+  section {
+    margin-top: 0;
+  }
+
+  .main-home {
+    min-height: 0;
+    font-size: 10px;
+    padding: 380px 0px 100px 0;
+  }
+
+  .home-page-photo {
+    top: 0vh;
+    left: -18vh;
+  }
+
+  .cambia-conteMiVi {
+    display: inline;
+  }
+
+  .misi-visi {
+    transform: none;
+    position: relative;
+    top: 0;
+    left: 0;
+    display: inline;
+  }
+
+  .mision {
+    opacity: 1;
+  }
+
+  .conteMiVi {
+    min-height: 45vh;
+  }
+
+  .conteMiVi::before {
+    content: none;
+  }
+
+  .cambia-conteMiVi {
+    display: none;
+  }
+
+  .info-conteMiVi {
+    top: 10%;
+  }
+
 
   .manager h2 {
     font-size: 18px;
@@ -853,8 +908,25 @@ nav.small {
     text-align: center;
   }
 
-  .managers .manager:first-child {
+  /* .managers .manager:first-child {
     margin-bottom: 30px;
+  } */
+
+  .contenido-texto-manager {
+    width: 90%;
+  }
+
+  .social a {
+    width: 12%;
+    height: 3vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .social a>i {
+    padding: 2px;
+    font-size: 16px;
   }
 
   .container-bar {
@@ -877,9 +949,6 @@ nav.small {
     z-index: 8;
   }
 
-  .footer-bottom p {
-    margin-left: -30%;
-  }
 }
 
 @media screen and (max-width: 695px) {
@@ -1043,7 +1112,7 @@ nav.small {
 
 @media screen and (max-width: 500px) {
   .managers .manager {
-    height: 450px;
+    /* height: 450px; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1055,19 +1124,12 @@ nav.small {
   }
 
   .managers .manager img {
-    width: 110px;
-    height: 110px;
-  }
-
-  .product h3 {
-    padding: 0px 0px 70px 0px;
+    width: 30%;
   }
 
   .social {
-    margin-left: 10px;
-    width: 200rem;
+    width: 90%;
   }
-
 
   .misi-visi p {
     padding: 0px;
@@ -1128,7 +1190,6 @@ footer p {
   border-top: 1px solid #000000;
 }
 
-
 .footer-bottom {
   background-color: #000;
 }
@@ -1185,9 +1246,6 @@ footer p {
 }
 
 @media only screen and (max-width: 767px) {
-  .navbar-custom {
-    background-color: #000;
-  }
 
   .navbar-custom .navbar-brand {
     color: #000;
@@ -1199,16 +1257,27 @@ footer p {
   }
 
   .ibagirl_logo,
-  .navbar-brand {
+  .navbar-brand,
+  .nece,
+  .brand {
     display: none;
     height: none;
     padding: none;
   }
 
   .menu_f {
-    width: 35%;
-    height: 30%;
-    margin-left: 10px;
+    width: 110%;
+    height: 50%;
+  }
+
+  .navbar-toggle {
+    position: fixed;
+  }
+
+  .navbar-header button {
+    height: 15%;
+    margin-left: 0;
+    margin-top: -35px;
   }
 
   .menuuu {
@@ -1405,32 +1474,49 @@ ul.pattern .color12 {
   background: #1c1c1c;
 }
 
-.container-bar .fa-facebook {
-  background: #3b5998;
+#networks {
+  color: #000;
+  background: #ffffffc2;
+  border-radius: 8px;
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+#networks:hover {
+  color: #fa8bbf;
+}
+
+/* .container-bar .fa-facebook {
+  color: #F7CAC9;
+  background: #343148;
   border-radius: 0px 5px 0px 0px;
 }
 
 .container-bar .fa-instagram {
-  background: -webkit-linear-gradient(45deg,
-      #f09433 0%,
-      #e6683c 25%,
-      #dc2743 50%,
-      #cc2366 75%,
-      #bc1888 100%);
+  color: #F7CAC9;
+  background: #343148;
 }
 
 .container-bar .fa-twitter {
-  background: #00acee;
+  color: #F7CAC9;
+    background: #343148;
 }
 
 .container-bar .fa-github {
-  background: #747473;
+  color: #F7CAC9;
+    background: #343148;
 }
 
 .container-bar .fa-linkedin-in {
-  background: #234fc8;
+  color: #F7CAC9;
+  background: #343148;
   border-radius: 0px 0px 5px 0px;
 }
+
+#whatsapp {
+  font-size: 25px;
+  color: #F7CAC9;
+  background: #343148;
+} */
 
 .container-bar #title {
   position: absolute;
@@ -1478,11 +1564,6 @@ ul.pattern .color12 {
   display: inline-block;
   transform: rotate(180deg);
   color: #49b0e6;
-}
-
-#whatsapp {
-  font-size: 25px;
-  background-color: #22c25d;
 }
 
 #btn-social:checked~.fa-play {

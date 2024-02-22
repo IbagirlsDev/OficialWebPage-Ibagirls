@@ -47,7 +47,7 @@
     padding: 15px 0px 0px 0px;
     background: #ffffff;
     border: 1px solid rgba(0, 0, 0, .07);
-    height:38rem;
+    height: 38rem;
 }
 
 .team .team-img {
@@ -222,11 +222,44 @@
     display: flex;
     margin-left: 38%;
 }
+.box{
+    height: 15vh;
+}
 
 @media screen and (max-width:1150px) {
 
+    .navbar-custom .navbar-nav>li>a{
+        color: rgb(66, 66, 66);
+    }
+
+    .navbar-items{
+        display: flex;
+        align-items: center;
+    }
+    
+
+    .gen {
+        margin-top: -40px;
+    }
+
     #centro {
         margin-left: 25%;
+    }
+    .box{
+        height: 10vh;
+    }
+    .team-item  {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 35rem;
+    }
+
+    .team-img  {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        width: 70%;
     }
 }
 
