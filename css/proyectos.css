@@ -1,41 +1,31 @@
 .proyect{
     background-color: #0000003b;
-    padding: 4% 2% ;
+    padding: 4% 0 4% 7%
 }
-.proyect {
-    color: black;
-    position: relative;
-    width: 100%;
-}
+
 
 .proyect .proyect-item{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 5%;
+    grid-template-columns: 1fr 2fr;
+    grid-row-gap: 1.5em;
+    padding: 3%;
+}
 
-}
-.proyect h2{
-    margin-top: 6.5%;
-}
 .proyect p{
     color: rgb(94, 91, 91);
     font-size: 1.5rem;
 }
 
-.proyect .proyect-item {
-    position: relative;
-    margin-bottom: 1%;
-   
-}
+
 .proyect .proyect-img {
-    position: relative;
+    /* position: relative; */
     overflow: hidden;
 }
 
 .proyect .proyect-img img {
-    position: relative;
-    width: 90%;
-
+    /* position: relative; */
+    width: 100%;
+    padding-top: 5vh;
 }
 
 .proyect-text h3{
@@ -44,8 +34,8 @@
 
 .proyect .proyect-text {
     width: 100%;
-    position: relative;
-    padding: 15px 15px 10px 15px;
+    /* position: relative; */
+    padding-left:  10vh;
     text-align: left;
 }
 
@@ -59,6 +49,10 @@
     align-items: center;
     justify-content: center;
     margin-top: 5%;
+}
+
+.container-proyect{
+    
 }
 
 @media screen and (max-width:700px){
